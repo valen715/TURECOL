@@ -7,6 +7,9 @@ const { Op } = require("sequelize");
 const opinionController = {};
 
 opinionController.crearComentario = async (req, res) => {
+    // Creamos un where con dos condiciones.
+    // 1. el id_usuario sea el que se envío
+    // 2. el id_lugar sea el que se envío
     const condicion = {
         where: {
             [Op.and]: [
@@ -15,7 +18,9 @@ opinionController.crearComentario = async (req, res) => {
             ]
         }
     }
+    // consultamos a la bd si existe opinión para ese lugar
     const existeOpinion = await Opinion.findOne(condicion);
+    // si existe, se modifica la opinión. Sino se crea
     if (existeOpinion) {
         existeOpinion.calificacion = req.body.calificacion;
         existeOpinion.comentario = req.body.comentario;
@@ -30,35 +35,27 @@ opinionController.crearComentario = async (req, res) => {
                 "comentario": req.body.comentario,
             }
         );
+        // Guarda la opinión en bd
         await newOpinion.save();
-        console.log('Opinion almacenada con exito');
         return res.json({ status: 'Opinion creado' });
     }
 
 }
 
-// PILAS
-class OpinionNodo {
-
-    nodos = [];
-
-    constructor(id, usuario, lugar, calificacion, comentario, opinionAnterior) {
-        this.id = id;
-        this.usuario = usuario;
-        this.lugar = lugar;
-        this.calificacion = calificacion;
-        this.comentario = comentario;
-        this.opinionAnterior = opinionAnterior;
-    }
-}
-
-
 opinionController.getAllComentarios = async (req, res) => {
+    // Tomamos todas las opiniones de la bd
     const opiniones = await Opinion.findAll();
+    // Vamos a pasar por cada opinión, para tomar
+    // el nombre del usuario y el nombre del lugar.
+    // recorremos las opiniones en cola.
     for (let i = 0; i < opiniones.length; i++) {
         let opinion = opiniones[i];
+        // Consultamos el usuario asociado a esa opinión.
         const usuario = await Usuario.findByPk(opinion.id_usuario);
+        // Consultamos el lugar asociado a esa opinión.
         const lugar = await Lugar.findByPk(opinion.id_lugar);
+        // Creamos una nuva opinión con los datos recuperados.
+        // pero esta no se guarda en la bd
         opinion = {
             "id_opinion": opinion.id_opinion,
             "nombre_usuario": usuario.getNombreCompleto(),
@@ -66,12 +63,14 @@ opinionController.getAllComentarios = async (req, res) => {
             "calificacion": opinion.calificacion,
             "comentario": opinion.comentario
         }
+        // Aca modificamos la opinión.
         opiniones[i] = opinion;
     }
-    // SELECT * FROM usuarios WHERE correo = 'x' AND clave = 'Y';
+
     if (opiniones) {
         return res.status(200).json(opiniones);
     } else {
+        // No hay opiniones
         return res.sendStatus(204);
     }
 }
