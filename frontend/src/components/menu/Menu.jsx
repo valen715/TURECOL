@@ -1,27 +1,53 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import LoginUtils from "../../utils/login.util";
 
 const Menu = () => {
+  const [logueado, setLogueado] = useState(false);
 
-    return (
-        <header>
-            <nav>
-                <a href="index.html"><img class="logo" src="img/logo.png" alt="logo" /></a>
+  useEffect(() => {
+    let mounted = true;
+    if (mounted) {
+      if (LoginUtils.getUsuario()) {
+        setLogueado(true);
+      }
+    }
+    return () => (mounted = false);
+  }, []);
 
-                <ul class="enlaces-menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="/">Lugares</a></li>
-                    <li><a href="#">Perfil</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
+  return (
+    <header>
+      <nav>
+        {logueado && (
+          <>
+            <a href="index.html">
+              <img class="logo" src="img/logo.png" alt="logo" />
+            </a>
 
-                <button class="ham" type="button">   
-                    <span class="br-1"></span>
-                    <span class="br-2"></span>
-                    <span class="br-3"></span>
-                </button>                       
-            </nav>
-        </header>
-    )
-}
+            <ul class="enlaces-menu">
+              <li>
+                <a href="/">Inicio</a>
+              </li>
+              <li>
+                <a href="/">Lugares</a>
+              </li>
+              <li>
+                <a href="#">Perfil</a>
+              </li>
+              <li>
+                <a href="#">Contacto</a>
+              </li>
+            </ul>
 
-export default Menu
+            <button class="ham" type="button">
+              <span class="br-1"></span>
+              <span class="br-2"></span>
+              <span class="br-3"></span>
+            </button>
+          </>
+        )}
+      </nav>
+    </header>
+  );
+};
+
+export default Menu;

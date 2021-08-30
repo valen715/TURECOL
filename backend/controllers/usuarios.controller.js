@@ -39,9 +39,14 @@ usuarioController.loginSencillo = async (req, res) => {
             ]
         }
     }
-    const usuario = await Usuario.findAll(condicion);
+    const usuario = await Usuario.findOne(condicion);
     // SELECT * FROM usuarios WHERE correo = 'x' AND clave = 'Y';
-    res.json(usuario);
+    if(usuario) {
+        return res.status(200).json(usuario);
+    } else {
+        return res.sendStatus(204);
+    }
+    
 }
 
 module.exports = usuarioController;
