@@ -1,5 +1,4 @@
-# Proyecto de ejemplo para IECM
-Este es el proyecto que se usaran en las mentorias de la IECM de Medellín
+# Proyect
 
 ## Tecnologías - backend
 ### Servidor
