@@ -11,6 +11,7 @@ const database = require('./databaseConnection');
 // Importamos las rutas de las URL para llamar a los servicios web.
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/usuarios.router');
+const opinionesRouter = require('./routes/opiniones.router');
 // Inicializamos la aplicación express
 const app = express();
 /* Hacemos uso de los middleware
@@ -28,5 +29,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Usamos las rutas importadas, Ejemplo de ws: localhost:3000/users
 app.use('/', indexRouter);
 app.use('/usuarios', usersRouter);
+app.use('/opiniones', opinionesRouter);
 
 module.exports = app;

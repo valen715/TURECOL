@@ -41,7 +41,7 @@ const Login = () => {
         <input id="correo" name="correo" />
         <br />
         <label for="clave">Contraseña:</label>
-        <input id="clave" name="clave" />
+        <input type="password" id="clave" name="clave" />
 
         <input type="submit" value="Login" onClick={login} />
       </div>

@@ -44,7 +44,17 @@ const Menu = () => {
               <span class="br-3"></span>
             </button>
           </>
-        )}
+        ) ||
+          (
+            <>
+              <ul class="enlaces-menu">
+                <li>
+                  <a href="/">Inicio</a>
+                </li>
+              </ul>
+            </>
+          )
+        }
       </nav>
     </header>
   );

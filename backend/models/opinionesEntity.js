@@ -14,7 +14,7 @@ const opciones = {
 
 // Creamos nuestra 'Entidad' en express
 Opinion.init({
-    "id_comentario": { type: DataTypes.BIGINT, primaryKey: true},
+    "id_opinion": { type: DataTypes.BIGINT, primaryKey: true},
     "id_usuario": { type: DataTypes.NUMBER },
     "id_lugar": { type: DataTypes.NUMBER },
     "calificacion": { type: DataTypes.NUMBER },
