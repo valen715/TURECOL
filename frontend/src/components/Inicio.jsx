@@ -110,6 +110,38 @@ const Inicio = () => {
                   <button className="button-ver-mas">Ver más</button>
                 </a>
               </div>
+              <div className="columna">
+                <h2 className="card-titulo">Todas las opiniones</h2>
+                <hr />
+                <img src="img/regionPacifica.jpg" className="img" alt="" />
+                <hr />
+                <p className="card-parrafo">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
+                  temporibus, obcaecati molestias ratione repellendus illo.
+                  Iusto repudiandae voluptate quam pariatur quae.
+                </p>
+                <a href="/opiniones" className="button-enlace">
+                  {" "}
+                  <button className="button-ver-mas">Ver las opiniones</button>
+                </a>
+              </div>
+              <div className="columna">
+                <h2 className="card-titulo">Crear opinión</h2>
+                <hr />
+                <img src="img/regionPacifica.jpg" className="img" alt="" />
+                <hr />
+                <p className="card-parrafo">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
+                  temporibus, obcaecati molestias ratione repellendus illo.
+                  Iusto repudiandae voluptate quam pariatur quae.
+                </p>
+                <a href="/crearOpiniones" className="button-enlace">
+                  {" "}
+                  <button className="button-ver-mas">Crear opinión</button>
+                </a>
+              </div>
 
               <div className="columna">
                 <h2 className="card-titulo">Salir</h2>

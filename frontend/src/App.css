@@ -260,3 +260,13 @@ nav{
 .button-ver-mas:hover{
     background:green ;
 }
+
+
+.opinion__contenedor {
+    font-size: large;
+    margin: 20px;
+    padding: 20px;
+    border: 1px;
+    border-color: black;
+    border-radius: 20px;
+}

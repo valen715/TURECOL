@@ -8,6 +8,8 @@ import {
 import Inicio from '../components/Inicio';
 import Registro from '../components/Registro';
 import Login from "../components/Login";
+import Opiniones from "../components/Opiniones";
+import CrearOpiniones from "../components/CrearOpiniones";
 
 import Amazonas from "../components/regiones/Amazonas";
 import Andina from "../components/regiones/Andina";
@@ -32,6 +34,15 @@ export function RouterAPP() {
                     <Route exact path='/login'>
                         <Login />
                     </Route>
+                    <Route exact path='/opiniones'>
+                        <Opiniones />
+                    </Route>
+                    <Route exact path='/crearOpiniones'>
+                        <CrearOpiniones />
+                    </Route>
+                    
+
+                    {/* Regiones */}
                     <Route exact path='/amazonas'>
                         <Amazonas />
                     </Route>

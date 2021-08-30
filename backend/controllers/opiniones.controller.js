@@ -7,17 +7,34 @@ const { Op } = require("sequelize");
 const opinionController = {};
 
 opinionController.crearComentario = async (req, res) => {
-    const newOpinion = Opinion.build(
-        {
-            "id_usuario": req.body.id_usuario,
-            "id_lugar": req.body.id_lugar,
-            "calificacion": req.body.calificacion,
-            "comentario": req.body.comentario,
+    const condicion = {
+        where: {
+            [Op.and]: [
+                { id_usuario: req.body.id_usuario },
+                { id_lugar: req.body.id_lugar }
+            ]
         }
-    );
-    await newOpinion.save();
-    console.log('Opinion almacenada con exito');
-    res.json({ status: 'Opinion creado' });
+    }
+    const existeOpinion = await Opinion.findOne(condicion);
+    if (existeOpinion) {
+        existeOpinion.calificacion = req.body.calificacion;
+        existeOpinion.comentario = req.body.comentario;
+        existeOpinion.save();
+        return res.status(201).json({ status: 'Opinion actualizada' });
+    } else {
+        const newOpinion = Opinion.build(
+            {
+                "id_usuario": req.body.id_usuario,
+                "id_lugar": req.body.id_lugar,
+                "calificacion": req.body.calificacion,
+                "comentario": req.body.comentario,
+            }
+        );
+        await newOpinion.save();
+        console.log('Opinion almacenada con exito');
+        return res.json({ status: 'Opinion creado' });
+    }
+
 }
 
 // PILAS
@@ -44,7 +61,7 @@ opinionController.getAllComentarios = async (req, res) => {
         const lugar = await Lugar.findByPk(opinion.id_lugar);
         opinion = {
             "id_opinion": opinion.id_opinion,
-            "nombre_usuario":  usuario.getNombreCompleto(),
+            "nombre_usuario": usuario.getNombreCompleto(),
             "nombre_lugar": lugar.nombre,
             "calificacion": opinion.calificacion,
             "comentario": opinion.comentario
