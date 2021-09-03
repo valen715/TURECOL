@@ -17,6 +17,9 @@ import Caribe from "../components/regiones/Caribe";
 import Orinoquia from "../components/regiones/Orinoquia";
 import Pacifico from "../components/regiones/Pacifico";
 
+import AmazonasD from "../components/departamentos/departamentosRegionAmazonica/AmazonasD";
+
+
 // Toast
 import { ToastProvider } from 'react-toast-notifications'
 
@@ -58,6 +61,13 @@ export function RouterAPP() {
                     <Route exact path='/pacifico'>
                         <Pacifico />
                     </Route>
+
+                    {/* Departamentos Region Amazonica */}
+                    <Route exact path='/AmazonasD'>
+                        <AmazonasD />
+                    </Route>
+
+
                 </Switch>
             </ToastProvider>
         </Router>

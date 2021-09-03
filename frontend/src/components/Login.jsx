@@ -3,6 +3,8 @@ import axios from "axios";
 import { useToasts } from "react-toast-notifications";
 import { useHistory } from "react-router-dom";
 import LoginUtils from "../utils/login.util";
+import imagen from "../images/imagen";
+import "./Estilos/login.css"
 
 const Login = () => {
   const { addToast } = useToasts();
@@ -35,7 +37,8 @@ const Login = () => {
   }
   return (
     <div>
-      <h1>Este es el login</h1>
+      <h1 >Este es el login</h1>
+      <img src={imagen.img3} class="logo" />
       <div>
         <label for="correo">Correo:</label>
         <input id="correo" name="correo" />

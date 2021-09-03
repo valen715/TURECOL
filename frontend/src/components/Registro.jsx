@@ -3,6 +3,7 @@ import axios from "axios";
 import { useHistory } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
 
+
 const Registro = () => {
   const { addToast } = useToasts();
   const history = useHistory();
@@ -18,11 +19,13 @@ const Registro = () => {
       .post("http://localhost:3000/usuarios/registrarUsuario", usuario)
       .then(function ({ data, status }) {
         // Se ejecuta siempre que el servidor ejecute todo correctamente
-        console.log(data, status)
+        console.log(data, status);
         if (status === 200) {
           console.log(data);
           console.log("Usuario registrado con exito");
-          addToast("Usuario registrado exitosamente", { appearance: "success" });
+          addToast("Usuario registrado exitosamente", {
+            appearance: "success",
+          });
           history.push("/");
         }
       })
@@ -36,14 +39,16 @@ const Registro = () => {
             addToast("Usuario no registrado", { appearance: "error" });
           }
         } else {
-          addToast("Usuario no registrado, algo salio mal.", { appearance: "error" });
+          addToast("Usuario no registrado, algo salio mal.", {
+            appearance: "error",
+          });
         }
       });
   }
 
   return (
     <div>
-      <h1>Este es el registro</h1>
+      <h1>Registro</h1>
       <div>
         <label for="nombres">Nombre:</label>
         <input id="nombres" name="nombres" />
@@ -51,7 +56,7 @@ const Registro = () => {
         <label for="correo">Correo:</label>
         <input id="correo" name="correo" />
         <br />
-        <label for="clave">Contraseña:</label>
+        <label for="clave">Clave:</label>
         <input type="password" id="clave" name="clave" />
 
         <input type="submit" value="Registrar" onClick={registrar} />

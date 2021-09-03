@@ -19,20 +19,13 @@ const Menu = () => {
       <nav>
         {logueado && (
           <>
-            <a href="index.html">
-              <img class="logo" src="img/logo.png" alt="logo" />
-            </a>
+            
 
             <ul class="enlaces-menu">
               <li>
                 <a href="/">Inicio</a>
-              </li>
-              <li>
-                <a href="/">Lugares</a>
-              </li>
-              <li>
-                <a href="#">Perfil</a>
-              </li>
+              </li>         
+              
               <li>
                 <a href="#">Contacto</a>
               </li>
@@ -49,7 +42,7 @@ const Menu = () => {
             <>
               <ul class="enlaces-menu">
                 <li>
-                  <a href="/">Inicio</a>
+                  <h1>Turecol</h1>
                 </li>
               </ul>
             </>

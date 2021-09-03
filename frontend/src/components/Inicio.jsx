@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import LoginUtils from "../utils/login.util";
 import { useHistory } from "react-router-dom";
+import imagen from "../images/imagen"
+
+
 
 const Inicio = () => {
     const history = useHistory();
@@ -36,7 +39,7 @@ const Inicio = () => {
               <div className="columna">
                 <h2 className="card-titulo">Región Andina</h2>
                 <hr />
-                <img src="img/regionAndina.jpg" className="img" alt="" />
+                <img src={imagen.img5} className="img" alt="" />
                 <hr />
                 <p className="card-parrafo">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
@@ -51,7 +54,7 @@ const Inicio = () => {
               <div className="columna">
                 <h2 className="card-titulo">Región Caribe</h2>
                 <hr />
-                <img src="img/regionCaribe.jpg" className="img" alt="" />
+                <img src={imagen.img6} className="img" alt="" />
                 <hr />
                 <p className="card-parrafo">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
@@ -66,7 +69,7 @@ const Inicio = () => {
               <div className="columna">
                 <h2 className="card-titulo">Región Amazonica</h2>
                 <hr />
-                <img src="img/regionAmazonas.jpg" className="img" alt="" />
+                <img src={imagen.img4} className="img" alt="" />
                 <hr />
                 <p className="card-parrafo">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
@@ -81,7 +84,7 @@ const Inicio = () => {
               <div className="columna">
                 <h2 className="card-titulo">Región Orinoquía</h2>
                 <hr />
-                <img src="img/regionOrinoquia.jfif" className="img" alt="" />
+                <img src={imagen.img7} className="img" alt="" />
                 <hr />
                 <p className="card-parrafo">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
@@ -97,7 +100,7 @@ const Inicio = () => {
               <div className="columna">
                 <h2 className="card-titulo">Región Pacífica</h2>
                 <hr />
-                <img src="img/regionPacifica.jpg" className="img" alt="" />
+                <img src={imagen.img8} className="img" alt="" />
                 <hr />
                 <p className="card-parrafo">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
@@ -110,45 +113,22 @@ const Inicio = () => {
                   <button className="button-ver-mas">Ver más</button>
                 </a>
               </div>
-              <div className="columna">
-                <h2 className="card-titulo">Todas las opiniones</h2>
-                <hr />
-                <img src="img/regionPacifica.jpg" className="img" alt="" />
-                <hr />
-                <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
-                  temporibus, obcaecati molestias ratione repellendus illo.
-                  Iusto repudiandae voluptate quam pariatur quae.
-                </p>
+              <div className="columna">                               
                 <a href="/opiniones" className="button-enlace">
                   {" "}
                   <button className="button-ver-mas">Ver las opiniones</button>
                 </a>
               </div>
-              <div className="columna">
-                <h2 className="card-titulo">Crear opinión</h2>
-                <hr />
-                <img src="img/regionPacifica.jpg" className="img" alt="" />
-                <hr />
-                <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
-                  temporibus, obcaecati molestias ratione repellendus illo.
-                  Iusto repudiandae voluptate quam pariatur quae.
-                </p>
+
+              <div className="columna">                
                 <a href="/crearOpiniones" className="button-enlace">
                   {" "}
                   <button className="button-ver-mas">Crear opinión</button>
                 </a>
               </div>
 
-              <div className="columna">
-                <h2 className="card-titulo">Salir</h2>
-                <hr />
-                <img src="img/regionPacifica.jpg" className="img" alt="" />
-                <hr />
-                <a href="/pacifico" className="button-enlace">
+              <div className="columna">          
+                <a href="/ "className="button-enlace">
                   {" "}
                   <button className="button-ver-mas" onClick={cerrarSesion}>Cerrar sesión</button>
                 </a>
@@ -157,37 +137,19 @@ const Inicio = () => {
           )) || (
             <>
               <div className="columna">
-                <h2 className="card-titulo">Registro usuario</h2>
-                <hr />
-                <img src="img/regionPacifica.jpg" className="img" alt="" />
-                <hr />
-                <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Temporibus, facere. Quam ad numquam blanditiis. Excepturi,
-                  dolorum voluptatibus dicta minus provident rem unde, cumque
-                  debitis illum quis ipsum ducimus ut cum!
-                </p>
                 <a href="/registro" className="button-enlace">
                   {" "}
-                  <button className="button-ver-mas">Nuevo usuario</button>
+                  <button className="button-ver-mas">Registrarse</button>
                 </a>
               </div>
               <div className="columna">
-                <h2 className="card-titulo">Iniciar sesión.</h2>
-                <hr />
-                <img src="img/regionPacifica.jpg" className="img" alt="" />
-                <hr />
-                <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Temporibus, facere. Quam ad numquam blanditiis. Excepturi,
-                  dolorum voluptatibus dicta minus provident rem unde, cumque
-                  debitis illum quis ipsum ducimus ut cum!
-                </p>
                 <a href="/login" className="button-enlace">
                   {" "}
-                  <button className="button-ver-mas">ingresar</button>
+                  <button className="button-ver-mas">iniciar sesión</button>
                 </a>
+                
               </div>
+              
             </>
           )}
         </section>
