@@ -112,6 +112,7 @@ import UbicacionAndina from './img/UbicacionAndina.png'
 import UbicacionCaribe from './img/UbicacionCaribe.png'
 import UbicacionOrinoquia from './img/UbicacionOrinoquia.png'
 import UbicacionPacifica from './img/UbicacionPacifica.png'
+import fondo from './img/fondo.png'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default{
@@ -224,5 +225,6 @@ export default{
     "img67":UbicacionAndina,
     "img68":UbicacionCaribe,
     "img69":UbicacionOrinoquia,
-    "img70":UbicacionPacifica
+    "img70":UbicacionPacifica,
+    "img71":fondo
 }

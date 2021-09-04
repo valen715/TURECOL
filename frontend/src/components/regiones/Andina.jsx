@@ -1,8 +1,10 @@
 import React from "react";
+import "./style/departamentos.css"
 
 const Andina = () => {
   return (
     <header>
+    <div class="departamentos">
       <h1 class="andina">Región Andina</h1>
       <div class="departamentos">
       <a href="/Antioquia "className="button-depa">
@@ -55,6 +57,7 @@ const Andina = () => {
           Tolima
         </button>
       </a>
+      </div>
       </div>
     </header>
   );

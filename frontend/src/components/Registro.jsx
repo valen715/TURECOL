@@ -3,6 +3,7 @@ import axios from "axios";
 import { useHistory } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
 import imagen from "../images/imagen";
+import "./Estilos/registro.css"
 
 
 const Registro = () => {
@@ -48,10 +49,10 @@ const Registro = () => {
   }
 
   return (
-    <div>
+    <div class="registro-box">
       <h1>Registro</h1>
-      <img src={imagen.img3} class="logo" width="100" height="100"/>
-      <div>
+      <img src={imagen.img65} class="logo" />
+      <from>
         <label for="nombres">Nombre:</label>
         <input id="nombres" name="nombres" />
         <br />
@@ -62,7 +63,7 @@ const Registro = () => {
         <input type="password" id="clave" name="clave" />
 
         <input type="submit" value="Registrar" onClick={registrar} />
-      </div>
+      </from>
     </div>
   );
 };

@@ -36,10 +36,11 @@ const Login = () => {
       });
   }
   return (
-    <div>
+    
+    <div class="login-box">
       <h1 >Este es el login</h1>
       <img src={imagen.img65} class="logo" />
-      <div>
+      <from>
         <label for="correo">Correo:</label>
         <input id="correo" name="correo" />
         <br />
@@ -47,8 +48,9 @@ const Login = () => {
         <input type="password" id="clave" name="clave" />
 
         <input type="submit" value="Login" onClick={login} />
-      </div>
+      </from>
     </div>
+    
   );
 };
 
