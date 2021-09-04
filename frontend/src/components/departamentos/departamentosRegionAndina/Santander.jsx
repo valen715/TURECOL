@@ -2,7 +2,7 @@ import React from "react";
 import imagen from "../../../images/imagen";
 
 const Santander = () => {
-    return (
+  return (
     <header>
       <h1 class="Santander">Santander</h1>
       <div>
@@ -49,13 +49,11 @@ const Santander = () => {
         </p>
       </div>
 
-      <div className="columna">                
-                <a href="/crearOpiniones" className="button-enlace">
-                  {" "}
-                  <button className="button-ver-mas">Crear opinión</button>
-                </a>
-              </div>
+      <a href="/crearOpiniones" className="button-enlace">
+        {" "}
+        <button className="button-ver-mas">Crear opinión</button>
+      </a>
     </header>
-    );
-    };
+  );
+};
 export default Santander;

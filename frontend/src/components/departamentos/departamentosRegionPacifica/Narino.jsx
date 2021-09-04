@@ -2,7 +2,7 @@ import React from "react";
 import imagen from "../../../images/imagen";
 
 const Narino = () => {
-    return (
+  return (
     <header>
       <h1 class="Narino">Narino</h1>
       <div>
@@ -48,7 +48,12 @@ const Narino = () => {
           undoubtable source.
         </p>
       </div>
+
+      <a href="/crearOpiniones" className="button-enlace">
+        {" "}
+        <button className="button-ver-mas">Crear opinión</button>
+      </a>
     </header>
-    );
-    };
+  );
+};
 export default Narino;

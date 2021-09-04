@@ -2,7 +2,7 @@ import React from "react";
 import imagen from "../../../images/imagen";
 
 const Casanare = () => {
-    return (
+  return (
     <header>
       <h1 class="Casanare ">Casanare </h1>
       <div>
@@ -48,7 +48,12 @@ const Casanare = () => {
           undoubtable source.
         </p>
       </div>
+
+      <a href="/crearOpiniones" className="button-enlace">
+        {" "}
+        <button className="button-ver-mas">Crear opinión</button>
+      </a>
     </header>
-    );
-    };
-export default Casanare ;
+  );
+};
+export default Casanare;

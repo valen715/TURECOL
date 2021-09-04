@@ -17,6 +17,7 @@ Opinion.init({
     "id_opinion": { type: DataTypes.BIGINT, primaryKey: true},
     "id_usuario": { type: DataTypes.NUMBER },
     "id_lugar": { type: DataTypes.NUMBER },
+    "departamento":{type: DataTypes.STRING(100)},
     "calificacion": { type: DataTypes.NUMBER },
     "comentario": { type: DataTypes.STRING(256) },
 }, opciones);

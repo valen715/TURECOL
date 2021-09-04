@@ -2,7 +2,7 @@ import React from "react";
 import imagen from "../../../images/imagen";
 
 const Choco = () => {
-    return (
+  return (
     <header>
       <h1 class="Choco">Choco</h1>
       <div>
@@ -48,7 +48,12 @@ const Choco = () => {
           undoubtable source.
         </p>
       </div>
+
+      <a href="/crearOpiniones" className="button-enlace">
+        {" "}
+        <button className="button-ver-mas">Crear opinión</button>
+      </a>
     </header>
-    );
-    };
+  );
+};
 export default Choco;

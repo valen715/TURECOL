@@ -2,7 +2,7 @@ import React from "react";
 import imagen from "../../../images/imagen";
 
 const AmazonasD = () => {
-    return (
+  return (
     <header>
       <h1 class="AmazonasD">Amazonas</h1>
       <div>
@@ -49,13 +49,11 @@ const AmazonasD = () => {
         </p>
       </div>
 
-      <div className="columna">                
-                <a href="/crearOpiniones" className="button-enlace">
-                  {" "}
-                  <button className="button-ver-mas">Crear opinión</button>
-                </a>
-              </div>
+      <a href="/crearOpiniones" className="button-enlace">
+        {" "}
+        <button className="button-ver-mas">Crear opinión</button>
+      </a>
     </header>
-    );
-    };
+  );
+};
 export default AmazonasD;

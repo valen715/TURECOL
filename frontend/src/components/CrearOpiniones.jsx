@@ -12,6 +12,7 @@ const CrearOpiniones = () => {
         const opinion = {
             id_lugar: document.getElementById("lugar").value,
             id_usuario: LoginUtils.getUsuario()?.id_usuario,
+            departamento: document.getElementById("departamento").value,
             calificacion: document.getElementById("calificacion").value,
             comentario: document.getElementById("comentario").value,
         };
@@ -45,6 +46,9 @@ const CrearOpiniones = () => {
                     <option value="4">Orinoquia</option>
                     <option value="5">Pacifico</option>
                 </select>
+                <label for="departamento">Departamento:</label>
+                <textarea name="departamento" id="departamento"  rows="10" ></textarea>
+                <br />
                 <br />
                 <label for="calificacion">Calificación:</label>
                 <input id="calificacion" name="calificacion" max="5" maxLength="1" minLength="1" />

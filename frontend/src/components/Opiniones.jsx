@@ -43,7 +43,8 @@ const Opiniones = () => {
                 return (
                     <div key={index} className="opinion__contenedor">
                         <h3>Calificación: {opinion.calificacion}</h3>
-                        <h4>Lugar: Región, {opinion.nombre_lugar}</h4>
+                        <h4>Lugar: Región {opinion.nombre_lugar}</h4>
+                        <h4>Departamento: {opinion.departamento}</h4>
                         <h4>Usuario: {opinion.nombre_usuario}</h4>
                         <p>{opinion.comentario}</p>
                     </div>

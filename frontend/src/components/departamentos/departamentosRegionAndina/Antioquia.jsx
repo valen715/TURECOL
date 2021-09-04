@@ -49,12 +49,10 @@ const Antioquia = () => {
         </p>
       </div>
 
-      <div className="columna">                
-                <a href="/crearOpiniones" className="button-enlace">
-                  {" "}
-                  <button className="button-ver-mas">Crear opinión</button>
-                </a>
-              </div>
+      <a href="/crearOpiniones" className="button-enlace">
+        {" "}
+        <button className="button-ver-mas">Crear opinión</button>
+      </a>
     </header>
     );
     };

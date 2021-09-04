@@ -2,7 +2,7 @@ import React from "react";
 import imagen from "../../../images/imagen";
 
 const ValleCauca = () => {
-    return (
+  return (
     <header>
       <h1 class="ValleCauca">Valle del Cauca</h1>
       <div>
@@ -48,7 +48,12 @@ const ValleCauca = () => {
           undoubtable source.
         </p>
       </div>
+
+      <a href="/crearOpiniones" className="button-enlace">
+        {" "}
+        <button className="button-ver-mas">Crear opinión</button>
+      </a>
     </header>
-    );
-    };
+  );
+};
 export default ValleCauca;

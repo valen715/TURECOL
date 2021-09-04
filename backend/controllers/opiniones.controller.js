@@ -22,6 +22,7 @@ opinionController.crearComentario = async (req, res) => {
     const existeOpinion = await Opinion.findOne(condicion);
     // si existe, se modifica la opinión. Sino se crea
     if (existeOpinion) {
+        existeOpinion.departamento = req.body.departamento;
         existeOpinion.calificacion = req.body.calificacion;
         existeOpinion.comentario = req.body.comentario;
         existeOpinion.save();
@@ -31,6 +32,7 @@ opinionController.crearComentario = async (req, res) => {
             {
                 "id_usuario": req.body.id_usuario,
                 "id_lugar": req.body.id_lugar,
+                "departamento": req.body.departamento,
                 "calificacion": req.body.calificacion,
                 "comentario": req.body.comentario,
             }
@@ -60,6 +62,7 @@ opinionController.getAllComentarios = async (req, res) => {
             "id_opinion": opinion.id_opinion,
             "nombre_usuario": usuario.getNombreCompleto(),
             "nombre_lugar": lugar.nombre,
+            "departamento": opinion.departamento,
             "calificacion": opinion.calificacion,
             "comentario": opinion.comentario
         }
