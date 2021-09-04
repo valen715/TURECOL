@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
 import LoginUtils from "../utils/login.util";
 import { useHistory } from "react-router-dom";
-import imagen from "../images/imagen"
-
-
+import imagen from "../images/imagen";
 
 const Inicio = () => {
-    const history = useHistory();
+  const history = useHistory();
   const [logueado, setLogueado] = useState(false);
 
-  function cerrarSesion () {
+  function cerrarSesion() {
     LoginUtils.SignOff();
     history.go(0);
   }
@@ -36,16 +34,33 @@ const Inicio = () => {
         <section className="container flex text-center">
           {(logueado && (
             <>
+            <div className="columna">
+                <h2 className="card-titulo">Región Amazonica</h2>
+                <hr />
+                <img src={imagen.img66} width="50" height="150" />
+                <hr />
+                <p className="card-parrafo">
+                  Está conformado por 6 departamentos, tiene un clima tropical
+                  húmedo, cuenta con 264.945 habitantes, tiene límites
+                  geográficos con los países de Ecuador, Perú, Brasil y
+                  Venezuela, también tiene límite dentro del país con la región
+                  Andina y la región Orinoquía.
+                </p>
+                <a href="/amazonas" className="button-enlace">
+                  <button className="button-ver-mas">Ver más</button>
+                </a>
+              </div>
               <div className="columna">
                 <h2 className="card-titulo">Región Andina</h2>
                 <hr />
-                <img src={imagen.img5} className="img" alt="" />
+                <img src={imagen.img67} width="50" height="150" />
                 <hr />
                 <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
-                  temporibus, obcaecati molestias ratione repellendus illo.
-                  Iusto repudiandae voluptate quam pariatur quae.
+                  Esta conformada por 10 departamentos, tiene un clima templado,
+                  cuenta con 37.068.593 habitantes, tiene límites geográficos
+                  con el país de Venezuela, también tiene límite dentro del país
+                  con todas las otras regiones (Amazónica, Orinoquía, Pacífica y
+                  Caribe).
                 </p>
                 <a href="/andina" className="button-enlace">
                   <button className="button-ver-mas">Ver más</button>
@@ -54,43 +69,30 @@ const Inicio = () => {
               <div className="columna">
                 <h2 className="card-titulo">Región Caribe</h2>
                 <hr />
-                <img src={imagen.img6} className="img" alt="" />
+                <img src={imagen.img68} width="50" height="150" />
                 <hr />
                 <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
-                  temporibus, obcaecati molestias ratione repellendus illo.
-                  Iusto repudiandae voluptate quam pariatur quae....
+                  Esta conformado por 8 departamentos, tiene un clima tropical
+                  seco, cuenta con 10.301.982 habitantes, tiene límites
+                  geográficos con el país de Venezuela, también tiene limites
+                  con el mar Caribe y el Pacífico, y también limita con la
+                  región Andina.
                 </p>
                 <a href="/caribe" className="button-enlace">
                   <button className="button-ver-mas">Ver más</button>
                 </a>
               </div>
-              <div className="columna">
-                <h2 className="card-titulo">Región Amazonica</h2>
-                <hr />
-                <img src={imagen.img4} className="img" alt="" />
-                <hr />
-                <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
-                  temporibus, obcaecati molestias ratione repellendus illo.
-                  Iusto repudiandae voluptate quam pariatur quae.
-                </p>
-                <a href="/amazonas" className="button-enlace">
-                  <button className="button-ver-mas">Ver más</button>
-                </a>
-              </div>
+              
               <div className="columna">
                 <h2 className="card-titulo">Región Orinoquía</h2>
                 <hr />
-                <img src={imagen.img7} className="img" alt="" />
+                <img src={imagen.img69} width="50" height="150" />
                 <hr />
                 <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
-                  temporibus, obcaecati molestias ratione repellendus illo.
-                  Iusto repudiandae voluptate quam pariatur quae.
+                  Esta conformado por 4 departamentos, tiene un clima tropical
+                  seco y monzónico, cuenta con 1.681.273 habitantes, tiene
+                  límites geográficos con Venezuela y dentro del país con la
+                  región Amazónica y la región Andina.
                 </p>
                 <a href="/orinoquia" className="button-enlace">
                   {" "}
@@ -100,56 +102,46 @@ const Inicio = () => {
               <div className="columna">
                 <h2 className="card-titulo">Región Pacífica</h2>
                 <hr />
-                <img src={imagen.img8} className="img" alt="" />
+                <img src={imagen.img70} width="50" height="150" />
                 <hr />
                 <p className="card-parrafo">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                  nulla aliquam velit aut adipisci aperiam iusto maxime numquam,
-                  temporibus, obcaecati molestias ratione repellendus illo.
-                  Iusto repudiandae voluptate quam pariatur quae.
+                  Está conformado por 4 departamentos, tiene un clima tropical
+                  húmedo y monzónico, cuenta con 1.500.753 habitantes, tiene
+                  límites geográficos con los países de Panamá y Ecuador, dentro
+                  del país tiene límite con la región Andina y limita con el
+                  océano Pacífico.
                 </p>
                 <a href="/pacifico" className="button-enlace">
                   {" "}
                   <button className="button-ver-mas">Ver más</button>
                 </a>
               </div>
-              <div className="columna">                               
-                <a href="/opiniones" className="button-enlace">
-                  {" "}
-                  <button className="button-ver-mas">Ver las opiniones</button>
-                </a>
-              </div>
 
-              <div className="columna">                
-                <a href="/crearOpiniones" className="button-enlace">
-                  {" "}
-                  <button className="button-ver-mas">Crear opinión</button>
-                </a>
-              </div>
+              <a href="/opiniones" className="button-ver-opiniones">
+                {" "}
+                <button className="button-ver-mas">Ver las opiniones</button>
+              </a>
 
-              <div className="columna">          
-                <a href="/ "className="button-enlace">
-                  {" "}
-                  <button className="button-ver-mas" onClick={cerrarSesion}>Cerrar sesión</button>
-                </a>
-              </div>
+              <a href="/ " className="button-cerrar-sesion">
+                {" "}
+                <button className="button-ver-mas" onClick={cerrarSesion}>
+                  Cerrar sesión
+                </button>
+              </a>
             </>
           )) || (
             <>
-              <div className="columna">
-                <a href="/registro" className="button-enlace">
-                  {" "}
-                  <button className="button-ver-mas">Registrarse</button>
-                </a>
-              </div>
-              <div className="columna">
-                <a href="/login" className="button-enlace">
-                  {" "}
-                  <button className="button-ver-mas">iniciar sesión</button>
-                </a>
-                
-              </div>
-              
+              <img src={imagen.img65} class="logo" width="100" height="100" />
+
+              <a href="/registro" className="button-enlace">
+                {" "}
+                <button className="button-ver-mas">Registrarse</button>
+              </a>
+
+              <a href="/login" className="button-enlace">
+                {" "}
+                <button className="button-ver-mas">iniciar sesión</button>
+              </a>
             </>
           )}
         </section>

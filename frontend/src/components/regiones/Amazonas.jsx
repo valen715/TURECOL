@@ -13,31 +13,31 @@ const Amazonas = () => {
             Amazonas            
           </button>
         </a>
-        <a href="../departamentos/departamentosRegionAmazonica/Caqueta.jsx" className="button-depart">
+        <a href="/Caqueta" className="button-depart">
         {" "}
           <button class="button-depart" onclick="accion">
             Caquetá
           </button>
         </a>
-        <a href="/frontend/src/components/departamentos/departamentosRegionAmazonica/Guainia.jsx" className="button-depart">
+        <a href="/Guainia" className="button-depart">
         {" "}
           <button class="button-depart" onclick="accion">
             Guainía
           </button>
         </a>
-        <a href="/frontend/src/components/departamentos/departamentosRegionAmazonica/Guaviare.jsx" className="button-depart">
+        <a href="/Guaviare" className="button-depart">
         {" "}
           <button class="button-depart" onclick="accion">
             Guaviare
           </button>
         </a>
-        <a href="/frontend/src/components/departamentos/departamentosRegionAmazonica/Putumayo.jsx" className="button-depart">
+        <a href="/Putumayo" className="button-depart">
         {" "}
           <button class="button-depart" onclick="accion">
             Putumayo
           </button>
         </a>
-        <a href="/frontend/src/components/departamentos/departamentosRegionAmazonica/Vaupes.jsx" className="button-depart">
+        <a href="Vaupes" className="button-depart">
            {" "}
           <button class="button-depart" onclick="accion">
             Vaupés

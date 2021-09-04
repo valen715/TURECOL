@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
+import imagen from "../images/imagen";
 
 
 const Registro = () => {
@@ -49,6 +50,7 @@ const Registro = () => {
   return (
     <div>
       <h1>Registro</h1>
+      <img src={imagen.img3} class="logo" width="100" height="100"/>
       <div>
         <label for="nombres">Nombre:</label>
         <input id="nombres" name="nombres" />
