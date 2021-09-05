@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import LoginUtils from "../utils/login.util";
 import { useHistory } from "react-router-dom";
 import imagen from "../images/imagen";
+import "./Estilos/inicio.css"
 
 const Inicio = () => {
   const history = useHistory();

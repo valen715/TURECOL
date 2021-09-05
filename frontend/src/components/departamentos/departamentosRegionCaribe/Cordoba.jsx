@@ -1,5 +1,7 @@
 import React from "react";
 import imagen from "../../../images/imagen";
+import "../style/departamento.css";
+
 
 const Cordoba = () => {
   return (

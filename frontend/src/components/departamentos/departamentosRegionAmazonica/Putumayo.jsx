@@ -1,9 +1,11 @@
 import React from "react";
 import imagen from "../../../images/imagen";
+import "../style/departamento.css"
 
 const Putumayo = () => {
   return (
     <header>
+    
       <h1 class="Putumayo">Putumayo</h1>
       <div>
         <img class="imagenes" src={imagen.img9} width="150" height="100" />

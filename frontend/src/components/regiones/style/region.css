@@ -1,0 +1,25 @@
+
+.titulo{
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.departamento{
+    margin: 0 20px;
+    text-align: center;
+}
+
+.button-depart{
+    height: 50px;
+    width: 30%;
+    line-height: 50px;
+    background: yellowgreen;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+    margin: 20px;
+}
