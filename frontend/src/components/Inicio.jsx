@@ -129,6 +129,7 @@ const Inicio = () => {
                   Cerrar sesión
                 </button>
               </a>
+
             </>
           )) || (
               <>
@@ -143,7 +144,7 @@ const Inicio = () => {
                     <button className="button-ver-mas button-ver-mas-mensaje">Registrarse</button>
                   </a>
                 </div>
-                
+
               </>
             )}
         </section>

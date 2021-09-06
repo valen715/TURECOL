@@ -1,17 +1,18 @@
 
 
 .crear-opinion{
-    
-    height: 420px;
+    width: 380px;
+    height: 630px;
     background: #fff;
-    top: 25%;
-    left: 41%;
+    top: 20%;
+    left: 36%;
     position: absolute;
     display: grid;
     gap: 20px;
     padding: auto;
     margin: 5px;
     font-weight: bold;
+    font-size: 14px;
 }
 
 
@@ -31,6 +32,6 @@
     font-family: 'Alegreya Sans', sans-serif;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 38px;
     text-align: center;
 }

@@ -5,11 +5,13 @@
     background: rgb(50, 205, 50);
     color: #fff;
     font-weight: bold;
-    border-radius: 7px;
+    border-radius: 30px;
     cursor: pointer;
     transition: .1s ease all;
     text-decoration: none;
-    
+    border: none;
+    text-decoration: none;
+
     
 }
 .button-ver-mas:hover{
@@ -20,6 +22,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card-box{
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 .img-card{
