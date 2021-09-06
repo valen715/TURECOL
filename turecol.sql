@@ -53,6 +53,7 @@ CREATE TABLE `opiniones` (
   `id_opinion` int(12) NOT NULL,
   `id_usuario` int(12) NOT NULL,
   `id_lugar` int(12) NOT NULL,
+  `departamento` longtext NOT NULL,
   `calificacion` int(1) NOT NULL,
   `comentario` longtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
