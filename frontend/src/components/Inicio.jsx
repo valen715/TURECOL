@@ -133,7 +133,7 @@ const Inicio = () => {
           )) || (
               <>
                 <div Class="ingreso">
-                  <img src={imagen.img65} class="logo" />
+                  <img src={imagen.img65} class="ingreso-logo" />
                   <a href="/login" className="button-enlace">
                     {" "}
                     <button className="button-ver-mas button-ver-mas-mensaje">iniciar sesión</button>

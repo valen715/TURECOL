@@ -29,13 +29,13 @@
 
 .ingreso{
     width: 350px;
-    height: 450px;
+    height: 550px;
     background: #fff;
-    top: 20%;
-    left: 37%;
+    top: 2%;
+    left: 36%;
     
     position: absolute;
-    transform: translate(-35%, -42);
+    transform: translate(5%, 15%);
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr ;
@@ -51,3 +51,11 @@
     height: 450px;
 }
 
+.ingreso .ingreso-logo{
+    width: 300px;
+    height: 300px;
+    
+    top: -60px;
+    left: calc(50% - 100px);
+    
+}
