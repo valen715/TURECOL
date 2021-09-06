@@ -14,7 +14,7 @@
     height: 50px;
     width: 30%;
     line-height: 50px;
-    background: yellowgreen;
+    background: rgb(50, 205, 50);
     color: black;
     font-weight: bold;
     border: none;
@@ -22,4 +22,10 @@
     cursor: pointer;
     transition: .1s ease all;
     margin: 20px;
+    
+}
+
+.button-depart:hover{
+    background: rgb(43, 255, 0);
+    border-radius: 20px;
 }

@@ -46,8 +46,9 @@ const CrearOpiniones = () => {
                     <option value="4">Orinoquia</option>
                     <option value="5">Pacifico</option>
                 </select>
+                <br />
                 <label for="departamento">Departamento:</label>
-                <textarea name="departamento" id="departamento"  rows="10" ></textarea>
+                <input name="departamento" id="departamento"  rows="10" ></input>
                 <br />
                 <br />
                 <label for="calificacion">Calificación:</label>
