@@ -5,8 +5,8 @@ import "../style/departamento.css"
 const Caldas = () => {
   return (
     <header>
-      <h1 class="Caldas">Caldas</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Caldas</h1>
         <img class="imagenes" src={imagen.img17} width="150" height="100" />
         <p class="text">
           {" "}

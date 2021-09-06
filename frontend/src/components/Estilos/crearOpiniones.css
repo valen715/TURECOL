@@ -1,0 +1,36 @@
+
+
+.crear-opinion{
+    
+    height: 420px;
+    background: #fff;
+    top: 25%;
+    left: 41%;
+    position: absolute;
+    display: grid;
+    gap: 20px;
+    padding: auto;
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+#departamento, #calificacion, #comentario{
+    display: block;
+    height: 50px;
+    width: 90%;
+    font-weight: 700px;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+    
+
+}
+
+.titulo-1{
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+}

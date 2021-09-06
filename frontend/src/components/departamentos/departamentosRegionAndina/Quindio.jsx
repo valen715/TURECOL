@@ -6,8 +6,8 @@ import "../style/departamento.css";
 const Quindio = () => {
   return (
     <header>
-      <h1 class="Quindio">Quindio</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Quindio</h1>
         <img class="imagenes" src={imagen.img25} width="150" height="100" />
         <p class="text">
           {" "}

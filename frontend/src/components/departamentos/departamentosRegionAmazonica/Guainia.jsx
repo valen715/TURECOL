@@ -5,8 +5,8 @@ import "../style/departamento.css"
 const Guainia = () => {
   return (
     <header>
-      <h1 class="Guainia">Guainía</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Guainía</h1>
         <img class="imagenes" src={imagen.img5} width="150" height="100" />
         <p class="text">
           {" "}

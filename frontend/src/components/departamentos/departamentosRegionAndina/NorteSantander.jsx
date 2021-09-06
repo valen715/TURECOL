@@ -5,8 +5,8 @@ import "../style/departamento.css";
 const NorteSantander = () => {
   return (
     <header>
-      <h1 class="NorteSantander">Norte de Santander</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Norte de Santander</h1>
         <img class="imagenes" src={imagen.img23} width="150" height="100" />
         <p class="text">
           {" "}

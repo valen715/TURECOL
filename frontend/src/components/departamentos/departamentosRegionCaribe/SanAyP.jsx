@@ -6,8 +6,8 @@ import "../style/departamento.css";
 const SanAyP = () => {
   return (
     <header>
-      <h1 class="SanAyP">SanAyP</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">SanAyP</h1>
         <img class="imagenes" src={imagen.img45} width="150" height="100" />
         <p class="text">
           {" "}

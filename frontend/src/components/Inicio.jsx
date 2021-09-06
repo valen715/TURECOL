@@ -35,10 +35,10 @@ const Inicio = () => {
         <section className="container flex text-center">
           {(logueado && (
             <>
-            <div className="columna">
+              <div className="columna">
                 <h2 className="card-titulo">Región Amazonica</h2>
                 <hr />
-                <img src={imagen.img66} width="50" height="150" />
+                <img src={imagen.img66} class="img-card" />
                 <hr />
                 <p className="card-parrafo">
                   Está conformado por 6 departamentos, tiene un clima tropical
@@ -48,13 +48,13 @@ const Inicio = () => {
                   Andina y la región Orinoquía.
                 </p>
                 <a href="/amazonas" className="button-enlace">
-                  <button className="button-ver-mas">Ver más</button>
+                  <button className="button-ver-mas button-ver-mas-mensaje">Ver más</button>
                 </a>
               </div>
               <div className="columna">
                 <h2 className="card-titulo">Región Andina</h2>
                 <hr />
-                <img src={imagen.img67} width="50" height="150" />
+                <img src={imagen.img67} class="img-card" />
                 <hr />
                 <p className="card-parrafo">
                   Esta conformada por 10 departamentos, tiene un clima templado,
@@ -64,13 +64,13 @@ const Inicio = () => {
                   Caribe).
                 </p>
                 <a href="/andina" className="button-enlace">
-                  <button className="button-ver-mas">Ver más</button>
+                  <button className="button-ver-mas button-ver-mas-mensaje">Ver más</button>
                 </a>
               </div>
               <div className="columna">
                 <h2 className="card-titulo">Región Caribe</h2>
                 <hr />
-                <img src={imagen.img68} width="50" height="150" />
+                <img src={imagen.img68} class="img-card" />
                 <hr />
                 <p className="card-parrafo">
                   Esta conformado por 8 departamentos, tiene un clima tropical
@@ -80,14 +80,14 @@ const Inicio = () => {
                   región Andina.
                 </p>
                 <a href="/caribe" className="button-enlace">
-                  <button className="button-ver-mas">Ver más</button>
+                  <button className="button-ver-mas button-ver-mas-mensaje">Ver más</button>
                 </a>
               </div>
-              
+
               <div className="columna">
                 <h2 className="card-titulo">Región Orinoquía</h2>
                 <hr />
-                <img src={imagen.img69} width="50" height="150" />
+                <img src={imagen.img69} class="img-card" />
                 <hr />
                 <p className="card-parrafo">
                   Esta conformado por 4 departamentos, tiene un clima tropical
@@ -97,13 +97,13 @@ const Inicio = () => {
                 </p>
                 <a href="/orinoquia" className="button-enlace">
                   {" "}
-                  <button className="button-ver-mas">Ver más</button>{" "}
+                  <button className="button-ver-mas button-ver-mas-mensaje">Ver más</button>{" "}
                 </a>
               </div>
               <div className="columna">
                 <h2 className="card-titulo">Región Pacífica</h2>
                 <hr />
-                <img src={imagen.img70} width="50" height="150" />
+                <img src={imagen.img70} class="img-card" />
                 <hr />
                 <p className="card-parrafo">
                   Está conformado por 4 departamentos, tiene un clima tropical
@@ -114,37 +114,38 @@ const Inicio = () => {
                 </p>
                 <a href="/pacifico" className="button-enlace">
                   {" "}
-                  <button className="button-ver-mas">Ver más</button>
+                  <button className="button-ver-mas button-ver-mas-mensaje">Ver más</button>
                 </a>
               </div>
 
               <a href="/opiniones" className="button-ver-opiniones">
                 {" "}
-                <button className="button-ver-mas">Ver las opiniones</button>
+                <button className="button-ver-mas button-ver-mas-mensaje">Ver las opiniones</button>
               </a>
 
               <a href="/ " className="button-cerrar-sesion">
                 {" "}
-                <button className="button-ver-mas" onClick={cerrarSesion}>
+                <button className="button-ver-mas button-ver-mas-mensaje" onClick={cerrarSesion}>
                   Cerrar sesión
                 </button>
               </a>
             </>
           )) || (
-            <>
-              <img src={imagen.img65} class="logo" width="100" height="100" />
-
-              <a href="/registro" className="button-enlace">
-                {" "}
-                <button className="button-ver-mas">Registrarse</button>
-              </a>
-
-              <a href="/login" className="button-enlace">
-                {" "}
-                <button className="button-ver-mas">iniciar sesión</button>
-              </a>
-            </>
-          )}
+              <>
+                <div Class="ingreso">
+                  <img src={imagen.img65} class="logo" />
+                  <a href="/login" className="button-enlace">
+                    {" "}
+                    <button className="button-ver-mas button-ver-mas-mensaje">iniciar sesión</button>
+                  </a>
+                  <a href="/registro" className="button-enlace">
+                    {" "}
+                    <button className="button-ver-mas button-ver-mas-mensaje">Registrarse</button>
+                  </a>
+                </div>
+                
+              </>
+            )}
         </section>
       </header>
     </>

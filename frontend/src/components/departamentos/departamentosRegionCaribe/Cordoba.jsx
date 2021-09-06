@@ -6,8 +6,8 @@ import "../style/departamento.css";
 const Cordoba = () => {
   return (
     <header>
-      <h1 class="Cordoba">Cordoba</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Cordoba</h1>
         <img class="imagenes" src={imagen.img39} width="150" height="100" />
         <p class="text">
           {" "}

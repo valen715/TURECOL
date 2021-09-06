@@ -5,8 +5,8 @@ import "../style/departamento.css"
 const Boyaca = () => {
     return (
     <header>
-      <h1 class="Boyaca">Boyaca</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Boyaca</h1>
         <img class="imagenes" src={imagen.img15} width="150" height="100" />
         <p class="text">
           {" "}

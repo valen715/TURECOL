@@ -6,8 +6,8 @@ const Putumayo = () => {
   return (
     <header>
     
-      <h1 class="Putumayo">Putumayo</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Putumayo</h1>
         <img class="imagenes" src={imagen.img9} width="150" height="100" />
         <p class="text">
           {" "}
