@@ -6,8 +6,8 @@ import "../style/departamento.css";
 const Meta = () => {
   return (
     <header>
-      <h1 class="Meta">Meta</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Meta</h1>
         <img class="imagenes" src={imagen.img53} width="150" height="100" />
         <p class="text">
           {" "}

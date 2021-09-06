@@ -5,9 +5,9 @@ import "../style/departamento.css"
 const Caqueta = () => {
   return (
     <header>
-      <h1 class="Caqueta">Caqueta</h1>
-      <div>
-        <img class="imagenes" src={imagen.img3} width="150" height="100" />
+      <div class="divsito">
+        <h1 class="titulo">Caquetá</h1>
+        <img class="imagenes" src={imagen.img3}/>
         <p class="text">
           {" "}
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
@@ -28,7 +28,7 @@ const Caqueta = () => {
           undoubtable source.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img4} width="150" height="100" />
+        <img class="imagenes2" src={imagen.img4}/>
         <p class="text">
           {" "}
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
@@ -49,10 +49,10 @@ const Caqueta = () => {
           undoubtable source.
         </p>
       </div>
-
+      
       <a href="/crearOpiniones" className="button-enlace">
         {" "}
-        <button className="button-ver-mas">Crear opinión</button>
+        <button className="button-ver-mas button-ver-mas-mensaje">Crear opinión</button>
       </a>
     </header>
   );

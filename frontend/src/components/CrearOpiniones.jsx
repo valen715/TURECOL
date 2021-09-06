@@ -3,6 +3,8 @@ import axios from 'axios';
 import LoginUtils from '../utils/login.util';
 import { useToasts } from "react-toast-notifications";
 import { useHistory } from "react-router-dom";
+import "./Estilos/crearOpiniones.css"
+
 
 const CrearOpiniones = () => {
     const { addToast } = useToasts();
@@ -35,9 +37,10 @@ const CrearOpiniones = () => {
     }
 
     return (
+        
         <div>
-            <h1>Crear opinion</h1>
-            <div>
+            <h1 class="titulo-1">Escribe tus opiniones</h1>
+            <div class="crear-opinion">
                 <label for="lugar">Región:</label>
                 <select name="lugar" id="lugar">
                     <option value="1">Amazonas</option>
@@ -46,14 +49,14 @@ const CrearOpiniones = () => {
                     <option value="4">Orinoquia</option>
                     <option value="5">Pacifico</option>
                 </select>
-                <label for="departamento">Departamento:</label>
-                <textarea name="departamento" id="departamento"  rows="10" ></textarea>
+                <label class="deaparamento1" for="departamento">Departamento:</label>
+                <textarea name="departamento" id="departamento" rows="10" ></textarea>
                 <br />
                 <br />
-                <label for="calificacion">Calificación:</label>
+                <label class="calificacion" for="calificacion">Calificación:</label>
                 <input id="calificacion" name="calificacion" max="5" maxLength="1" minLength="1" />
                 <br />
-                <label for="comentario">Comentario:</label>
+                <label class="comentario" for="comentario">Comentario:</label>
                 <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
                 <br />
                 <input type="submit" value="Registrar opinion" onClick={registrarOpinion} />

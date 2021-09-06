@@ -6,8 +6,8 @@ import "../style/departamento.css";
 const ValleCauca = () => {
   return (
     <header>
-      <h1 class="ValleCauca">Valle del Cauca</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Valle del Cauca</h1>
         <img class="imagenes" src={imagen.img63} width="150" height="100" />
         <p class="text">
           {" "}

@@ -23,3 +23,7 @@
     transition: .1s ease all;
     margin: 20px;
 }
+
+.button-depart:hover{
+    box-shadow: 3px 0px 30px rgb(133, 209, 114);
+}

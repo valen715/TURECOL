@@ -6,8 +6,8 @@ import "../style/departamento.css";
 const Tolima = () => {
   return (
     <header>
-      <h1 class="Tolima">Tolima</h1>
-      <div>
+      <div class="divsito">
+      <h1 class="titulo">Tolima</h1>
         <img class="imagenes" src={imagen.img31} width="150" height="100" />
         <p class="text">
           {" "}
