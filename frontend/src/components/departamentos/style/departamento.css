@@ -1,0 +1,25 @@
+.divsito{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+}
+.divsito p{
+font-size: 14px;
+    margin: 20px;
+}
+
+.imagenes{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+}
+
+.imagenes2{
+    width: 200px;
+    height: 150px;
+    float: right;
+}

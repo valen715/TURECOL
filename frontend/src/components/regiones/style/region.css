@@ -1,0 +1,35 @@
+
+.titulo{
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.departamento{
+    margin: 0 20px;
+    text-align: center;
+}
+
+.button-depart{
+    height: 50px;
+    width: 30%;
+    line-height: 50px;
+    background: rgb(50, 205, 50);
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+    margin: 20px;
+    
+}
+
+.button-depart:hover{
+    background: rgb(43, 255, 0);
+    border-radius: 20px;
+}
+
+.button-depart:hover{
+    box-shadow: 3px 0px 30px rgb(133, 209, 114);
+}
