@@ -35,6 +35,7 @@ const Inicio = () => {
         <section className="container flex text-center">
           {(logueado && (
             <>
+            <div className="container">
               <div className="columna">
                 <h2 className="card-titulo">Región Amazonica</h2>
                 <hr />
@@ -117,6 +118,7 @@ const Inicio = () => {
                   <button className="button-ver-mas button-ver-mas-mensaje">Ver más</button>
                 </a>
               </div>
+              </div>
 
               <a href="/opiniones" className="button-ver-opiniones">
                 {" "}
@@ -133,6 +135,7 @@ const Inicio = () => {
             </>
           )) || (
               <>
+              <div className="ingreso-fondo"></div>
                 <div Class="ingreso">
                   <img src={imagen.img65} class="ingreso-logo" />
                   <a href="/login" className="button-enlace">

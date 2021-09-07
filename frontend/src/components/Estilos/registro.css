@@ -59,12 +59,12 @@ body{
     border: none;
     outline: none;
     height: 40px;
-    background: rgb(50, 205, 50);
+    background: #0CEDA2;
     color: #000;
     font-size: 18px;
     border-radius: 20px;
 }
 
 .registro-box input[type="submit"]:hover{
-    background: rgb(102, 245, 7);
+    background: #1dda9b;
 }

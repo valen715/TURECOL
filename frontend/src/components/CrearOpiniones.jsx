@@ -60,7 +60,7 @@ const CrearOpiniones = () => {
                 <label class="comentario" for="comentario">Comentario:</label>
                 <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
                 <br />
-                <input type="submit" value="Registrar opinion" onClick={registrarOpinion} />
+                <input type="submit" class="bonton-opinion" value="Registrar opinion" onClick={registrarOpinion} />
             </div>
         </div>
     )

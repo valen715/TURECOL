@@ -37,7 +37,7 @@ nav{
     align-items:center;
     justify-content: space-around;
     min-height:8vh;
-    background-color: rgb(50, 205, 50);
+    background-color: #0CEDA2;
 }
 
 .ham{
@@ -74,7 +74,7 @@ nav{
     font-weight:600;
 }
 .enlaces-menu li:hover{
-    background-color:rgb(157, 255, 10);
+    background-color:#1dda9b;
 }
 
 
@@ -164,7 +164,7 @@ body{
 
 .nav-enlace{
     display: inline-block;
-    background: rgb(50, 205, 50);
+    background: #0CEDA2;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 5px;
@@ -182,7 +182,7 @@ nav{
     padding: 10px ;      
     display: block;
     text-align: right;
-    background-color: rgb(50, 205, 50);
+    background-color: #0CEDA2;
 
 }
 
@@ -239,6 +239,7 @@ nav{
     width: 30%;
     box-sizing: border-box;
     text-align: center;
+    
 }
 .columna img{
     width: 100%;
@@ -247,13 +248,13 @@ nav{
     position: relative;
 }
 .button-ver-mas{
-    background: rgb(50, 205, 50);
+    background: rgb#0CEDA2;
     color: black;
     display: flex;
     padding:  10px ;
     border-radius: 5px;
     text-decoration: none;
-
+    
 
 }
 
