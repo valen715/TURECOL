@@ -10,6 +10,7 @@ import Registro from '../components/Registro';
 import Login from "../components/Login";
 import Opiniones from "../components/Opiniones";
 import CrearOpiniones from "../components/CrearOpiniones";
+import Contacto from '../components/Contacto';
 
 
 //Regiones
@@ -84,7 +85,9 @@ export function RouterAPP() {
                     <Route exact path='/crearOpiniones'>
                         <CrearOpiniones />
                     </Route>
-                    
+                    <Route exact path='/contacto'>
+                        <Contacto/>
+                    </Route>    
 
                     {/* Regiones */}
                     <Route exact path='/amazonas'>

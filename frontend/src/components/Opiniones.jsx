@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useToasts } from "react-toast-notifications";
+import './Estilos/opiniones.css';
 
 const Opiniones = () => {
     const { addToast } = useToasts();
@@ -37,6 +38,7 @@ const Opiniones = () => {
     }
 
     return (
+        <section className="container-2 flex text-center">
         <div>
             <h1>Opiniones</h1>
             {listaOpiniones.map((opinion, index) => {
@@ -51,6 +53,7 @@ const Opiniones = () => {
                 )
             })}
         </div>
+        </section>
     )
 }
 

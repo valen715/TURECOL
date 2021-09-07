@@ -3,7 +3,7 @@ import LoginUtils from "../utils/login.util";
 import { useHistory } from "react-router-dom";
 import imagen from "../images/imagen";
 import "./Estilos/inicio.css"
-import contacto from "./contacto";
+// import contacto from "./contacto";
 
 const Inicio = () => {
   const history = useHistory();
@@ -138,6 +138,7 @@ const Inicio = () => {
             </>
           )) || (
               <>
+              <section className="container-2 flex text-center">
               <div className="ingreso-fondo"></div>
                 <div Class="ingreso">
                   <img src={imagen.img65} class="ingreso-logo" />
@@ -150,7 +151,7 @@ const Inicio = () => {
                     <button className="button-ver-mas button-ver-mas-mensaje">Registrarse</button>
                   </a>
                 </div>
-
+                </section>
               </>
             )}
         </section>

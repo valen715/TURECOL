@@ -1,0 +1,6 @@
+.container-1{
+    min-height: 100vh;
+    min-width: 100vh;
+    background: url(../../images/img/opiniones.png) no-repeat center center scroll;
+    background-size:cover;
+}
