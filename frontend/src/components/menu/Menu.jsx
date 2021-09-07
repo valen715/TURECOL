@@ -24,10 +24,11 @@ const Menu = () => {
             <ul class="enlaces-menu">
               <li>
                 <a href="/">Inicio</a>
+                
               </li>         
               
               <li>
-                <a href="#">Contacto</a>
+                <a href="contacto">Contacto</a>
               </li>
             </ul>
 

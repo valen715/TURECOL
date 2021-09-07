@@ -7,7 +7,7 @@ const SanAyP = () => {
   return (
     <header>
       <div class="divsito">
-      <h1 class="titulo">SanAyP</h1>
+      <h1 class="titulo">San Andrés y Providencia</h1>
         <img class="imagenes" src={imagen.img45} width="150" height="100" />
         <p class="text">
           {" "}

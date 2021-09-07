@@ -3,6 +3,7 @@ import LoginUtils from "../utils/login.util";
 import { useHistory } from "react-router-dom";
 import imagen from "../images/imagen";
 import "./Estilos/inicio.css"
+import contacto from "./contacto";
 
 const Inicio = () => {
   const history = useHistory();
@@ -131,6 +132,8 @@ const Inicio = () => {
                   Cerrar sesión
                 </button>
               </a>
+
+              
 
             </>
           )) || (
