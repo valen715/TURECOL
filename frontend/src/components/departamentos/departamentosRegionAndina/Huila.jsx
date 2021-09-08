@@ -1,53 +1,35 @@
 import React from "react";
 import imagen from "../../../images/imagen";
-import "../style/departamento.css"
-
+import "../style/departamento.css";
 
 const Huila = () => {
   return (
     <header>
       <div claas="divsito">
-      <h1 class="titulo">Huila</h1>
+        <h1 class="titulo">Huila</h1>
         <img class="imagenes" src={imagen.img21} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          Huila es un departamento perteneciente a la región Andina, este
+          hermoso departamento tiene paisajes que recorrer que son de otro
+          mundo, podemos disfrutar de sus aguas termales y también se puede
+          practicar montañismo en la Sierra Nevada de los Coconucos.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Huila tiene una superficie de 19.890 Km2, tiene una población
+          aproximadamente de 780.109 habitantes, este departamento fue creado en
+          el año 1905, a sus habitantes se les llama Huilense u Opita, la
+          capital del Huila es Neiva y cuenta con 248.008 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img22} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
-        </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          El Huila tiene lugares muy lindos que conocer unos de estos lugares
+          son el Parque Cueva de los Guácharos, el cual es un sistema de cuevas
+          protegidas por la selva virgen, estas cuevas son el hogar de animales
+          como guacamayos y murciélagos, además de que el parque está habitado
+          por más animales.{" "}
         </p>
       </div>
 

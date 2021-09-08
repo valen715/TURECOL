@@ -2,52 +2,38 @@ import React from "react";
 import imagen from "../../../images/imagen";
 import "../style/departamento.css";
 
-
 const Risaralda = () => {
   return (
     <header>
       <div class="divsito">
-      <h1 class="titulo">Risaralda</h1>
+        <h1 class="titulo">Risaralda</h1>
         <img class="imagenes" src={imagen.img27} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          Risaralda es un departamento perteneciente a la región Andina, es uno
+          de los varios departamentos cafeteros de Colombia, su comercio esta
+          muy bien desarrollado, una de sus actividades principales es el
+          turismo y para este departamento es muy importante la industria de la
+          confección.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Risaralda tiene una superficie de 4.140 Km2, tiene una población
+          aproximadamente de 957.250 habitantes, este departamento fue creado en
+          el año 1966, a sus habitantes se les llama Risaraldense, la capital
+          del Risaralda es Pereira y cuenta con 412.134 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img28} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
-        </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          En Risaralda tenemos sitios turísticos muy interesantes los cuales
+          podemos visitar y conocer tenemos la Laguna del Otún que tiene un
+          paisaje hermoso; Santuario Fauna y Flora Otún Quimbaya, son vastas
+          áreas de bosques andinos con alta biodiversidad y están ubicadas en el
+          corazón de la zona cafetalera de la cordillera central, en este lugar
+          podemos encontrar gran variedad de animales; Alto el Nudo esta ubicado
+          en el municipio de dos quebradas y aquí podemos encontrar diversidad
+          de fauna y flora con senderos ecológicos los cuales podremos recorrer.{" "}
         </p>
       </div>
 

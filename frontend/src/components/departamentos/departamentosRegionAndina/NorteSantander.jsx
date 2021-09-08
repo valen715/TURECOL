@@ -6,47 +6,32 @@ const NorteSantander = () => {
   return (
     <header>
       <div class="divsito">
-      <h1 class="titulo">Norte de Santander</h1>
+        <h1 class="titulo">Norte de Santander</h1>
         <img class="imagenes" src={imagen.img23} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          Norte de Santander es un departamento perteneciente a la región
+          Andina, este territorio este cruzado por la cordillera Oriental, este
+          departamento se caracteriza por tener cerros, mesetas, llanuras y
+          paramos, también podemos decir que tiene un ecosistema bastante
+          variado con mucha diversidad de flora y fauna.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          El Norte de Santander tiene una superficie de 21.658 Km2, tiene una
+          población aproximadamente de 1.367.716 habitantes, este departamento
+          fue creado en el año 1910, a sus habitantes se les llama
+          Nortesantandereano, la capital de Norte de Santander es Cúcuta y
+          cuenta con 525.465 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img24} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
-        </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          En este departamento nos podemos encontrar con un parque ecológico
+          bastante bonito llamado El Área Única Natural de los Estoraques el
+          cual esta lleno de ecosistemas hermosos, en cuanto a la fauna y la
+          flora nos podemos encontrar con que gran variedad de árboles, al igual
+          que en la fauna podemos encontrar especies endémicas{" "}
         </p>
       </div>
 

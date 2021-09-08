@@ -2,53 +2,36 @@ import React from "react";
 import imagen from "../../../images/imagen";
 import "../style/departamento.css";
 
-
 const Santander = () => {
   return (
     <header>
       <div class="divsito">
-      <h1 class="Santander">Santander</h1>
+        <h1 class="Santander">Santander</h1>
         <img class="imagenes" src={imagen.img29} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          Santander es un departamento perteneciente a la región Andina, este
+          departamento se ha ido desarrollando en los últimos años su economía
+          esta bastante diversificada y posee grandes recursos naturales, además
+          este departamento tiene una cultura bastante fuera de lo común.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Santander tiene una superficie de 30.537 Km2, tiene una población
+          aproximadamente de 2.071.016 habitantes, este departamento fue creado
+          en el año 1886, a sus habitantes se les llama Santandereano, la
+          capital de Santander es Bucaramanga y cuenta con 499.932 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img30} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          En Santander podemos encontrar lugares naturales los cuales podremos
+          visitar uno de ellos es la Cascada de Juan Curi, también esta la Mesa
+          de los Santos de este sitio se puede observar el cañón del Chicamocha,
+          tenemos las Gachas es un lugar muy reconocido por sus enormes
+          cráteres.{" "}
         </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
-        </p>
+        
       </div>
 
       <a href="/crearOpiniones" className="button-enlace">
