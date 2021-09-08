@@ -2,52 +2,37 @@ import React from "react";
 import imagen from "../../../images/imagen";
 import "../style/departamento.css";
 
-
 const Cesar = () => {
   return (
     <header>
       <div class="sivsito">
-      <h1 class="tiulo">Cesar</h1>
+        <h1 class="tiulo">Cesar</h1>
         <img class="imagenes" src={imagen.img37} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          El Cesar es un departamento perteneciente a la región caribeña, es un
+          departamento destacado por su ganadería, agricultura y su pesca, en
+          los últimos años se ha visto un incremento y un mejor desarrollo en el
+          turismo, se sabe que es el segundo departamento que más realiza
+          exportaciones.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          El Cesar tiene una superficie de 22.905 Km2, tiene una población
+          aproximadamente de 1.041.203 habitantes, este departamento fue creado
+          en el año 1967, a sus habitantes se les llama Cesarense, la capital
+          del Cesar es Valledupar y cuenta con 274.946 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img38} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
-        </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Al visitar el departamento del Cesar no se puede quedar sin conocer
+          sus sitios ecoturísticos algunos de estos son el Río Magiriaimo el
+          cual destaca por su gran diversidad de fauna y flora; si visitamos el
+          municipio de Aguachica podemos encontrar muchas actividades acuáticas
+          y de ecoturismo ya que queda entre la cordillera Oriental y el río
+          Magdalena; también esta el bosque el Agüil, el cual posee gran
+          diversidad ya que es una zona verde.{" "}
         </p>
       </div>
 

@@ -2,52 +2,34 @@ import React from "react";
 import imagen from "../../../images/imagen";
 import "../style/departamento.css";
 
-
 const Cordoba = () => {
   return (
     <header>
       <div class="divsito">
-      <h1 class="titulo">Cordoba</h1>
+        <h1 class="titulo">Cordoba</h1>
         <img class="imagenes" src={imagen.img39} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          Córdoba es un departamento de la región caribeña, este departamento es
+          destacado mayormente por la actividad agrícola, precaria y minera, es
+          un territorio lleno de culturas y de tradiciones, su ubicación hace
+          que sea uno de los departamentos mas privilegiados para practicar el
+          ecoturismo.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Córdoba tiene una superficie de 23.980 Km2, tiene una población
+          aproximadamente de 1.736.218 habitantes, este departamento fue creado
+          en el año 1951, a sus habitantes se les llama Cordobés, la capital de
+          Córdoba es Montería y cuenta con 270.954 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img40} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
-        </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Se puede empezar visitando la Ciénaga de Ayapel, en este sitio se
+          suelen desplazar en planchones de madera este lugar en muy rico en
+          biodiversidad, también se puede visitar el Zooparque Los Caimanes, el
+          cual esta ubicado en el municipio de Buenavista, entre otros lugares.{" "}
         </p>
       </div>
 
