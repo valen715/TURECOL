@@ -2,52 +2,32 @@ import React from "react";
 import imagen from "../../../images/imagen";
 import "../style/departamento.css";
 
-
 const Arauca = () => {
   return (
     <header>
       <div class="divsito">
-      <h1 class="titulo">Arauca</h1>
+        <h1 class="titulo">Arauca</h1>
         <img class="imagenes" src={imagen.img49} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          Arauca es un departamento perteneciente a la región de la Orinoquia,
+          es uno de los departamentos mas extensos de Colombia, y su territorio
+          esta habitado por ocho pueblos indígenas.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Arauca tiene una superficie de 23.818 Km2, tiene una población
+          aproximadamente de 208.615 habitantes, este departamento fue creado en
+          el año 1991, a sus habitantes se les llama Araucanos, la capital de
+          Arauca es Arauca y cuenta con 42.829 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img50} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
-        </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          En Risaralda tenemos sitios turísticos muy interesantes los cuales
+          podemos visitar y conocer tenemos el Parque Ecológico del Llano, aquí
+          podemos incursionar por toda su naturaleza; también hay lugares como
+          Los Araguatos Centro Recreacional, Cravo Norte, entre otros.{" "}
         </p>
       </div>
 
