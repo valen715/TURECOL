@@ -2,7 +2,6 @@ import React from "react";
 import imagen from "../../../images/imagen";
 import "../style/departamento.css";
 
-
 const CaucaP = () => {
   return (
     <header>
@@ -11,43 +10,33 @@ const CaucaP = () => {
         <img class="imagenes" src={imagen.img57} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          El cauca es un departamento perteneciente a la región Pacífica, El
+          departamento del Cauca es rico en maderas, tiene grandes reservas
+          forestales, de vocación agrícola y turística. El territorio del
+          departamento del Cauca es uno de los más quebrados del país, pues allí
+          se encuentra el Macizo Colombiano, nudo en que se entrelazan las
+          cordilleras Central y Occidental.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          El Cauca tiene una superficie de 29.308 Km2, tiene una población
+          aproximadamente de 1.404.313 habitantes, este departamento fue creado
+          en el año 1536, a sus habitantes se les llama Caucanos, la capital del
+          Cauca es Popayán y cuenta con 200.989 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img58} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
-        </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Este departamento tiene tres parques significativos gracias a su
+          riqueza natural, estos parques son: El Parque Nacional Natural
+          Munchique, este es un lugar donde habitan animales como: osos de
+          anteojos, osos hormigueros, osos perezosos, tigrillos, tigres, zorros,
+          venados, ardillas y murciélagos; El Parque Nacional Natural Puracé, es
+          un lugar donde habitan animales como: el cóndor, colibrí, venado
+          conejo y rojo, danta, loro orejiamarillo, pavas y muchas especies más
+          y El Parque Nacional Natural Isla Gorgona que pertenece al Pacífico
+          colombiano, junto con Isla Malpelo son las únicas islas del Pacífico
+          que pertenecen a Colombia.{" "}
         </p>
       </div>
 

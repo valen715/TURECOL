@@ -6,47 +6,33 @@ const Narino = () => {
   return (
     <header>
       <div class="divsito">
-      <h1 class="titulo">Narino</h1>
+        <h1 class="titulo">Narino</h1>
         <img class="imagenes" src={imagen.img61} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
+          Nariño es un departamento perteneciente a la región Pacífica, El
+          departamento de Nariño es un importante productor agrícola y
+          agroindustrial, su actividad turística se ha venido desarrollando con
+          el tiempo y cada vez toma mayor importancia.{" "}
         </p>
         <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          Nariño tiene una superficie de 46.530 Km2, tiene una población
+          aproximadamente de 505.046 habitantes, este departamento fue creado en
+          el año 1947, a sus habitantes se les llama Chocoanos, la capital del
+          Nariño es Quibdó y cuenta con 113.473 habitantes.
         </p>{" "}
         <br></br>
         <img class="imagenes2" src={imagen.img62} width="150" height="100" />
         <p class="text">
           {" "}
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.{" "}
-        </p>
-        <p class="text">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden -Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          En Nariño podemos visitar lugares como el Parque Sanquianga, es bañado
+          por las aguas del Océano Pacífico. Es uno de los mayores bosques de
+          manglares del mundo. Cubre más de 80.000 hectáreas, y el 20% de los
+          manglares de Colombia se encuentran aquí. El parque alberga sesenta
+          especies de peces, treinta especies de moluscos, una veintena de
+          especies de aves y doce especies de reptiles; pero también hay lugares
+          naturales donde podemos ir como: Laguna Verde, Volcán Galeras, Cañón
+          de Juanambú, entre muchos otros.{" "}
         </p>
       </div>
 
