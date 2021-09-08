@@ -1,11 +1,15 @@
 .container-2{
     max-height: 100%;
     background-image: url(../../images/img/opiniones.png);
-    background-size:cover;
+    background-Position:center;
+    background-Size: cover;
+    background-Repeat: 'no-repeat';
+    
 }
 
 .opinion__contenedor{
-    background:transparent;
+    background:rgba(255, 255, 255, 0.5);
+
     width: 25%;   
     text-align: left; 
     border: solid 1px black;
