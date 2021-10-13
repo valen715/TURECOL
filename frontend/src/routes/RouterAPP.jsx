@@ -10,7 +10,7 @@ import Registro from '../components/Registro';
 import Login from "../components/Login";
 import Opiniones from "../components/Opiniones";
 import CrearOpiniones from "../components/CrearOpiniones";
-import Contacto from '../components/Contacto'
+import Contacto from '../components/Contacto';
 
 
 //Regiones
