@@ -1,7 +1,8 @@
 .container-1{
 
-    min-height: 100vh;
-    min-width: 100vh;
+    min-height: 50vh;
+    min-width: 50vh;
     background: url(../../images/img/contacto.png) no-repeat center center scroll;
-    background-size:cover;
+    background-size: cover;
 }
+

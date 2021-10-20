@@ -33,6 +33,20 @@ const Contacto = () => {
           </p>
         </div>
       </div>
+
+        <div className="columna">
+          <h2 className="card-titulo">Valentina Pulgarín Fernández</h2>
+          <hr />
+          <img src={imagen.img74} class="img-card" />
+          <hr />
+          <p className="card-parrafo">
+            Correo: valentina_pulgarin23211@elpoli.edu.co
+          </p>
+          <p className="card-parrafo">
+            Teléfono: 3206397349
+          </p>
+        </div>
+      
     </section>
 
   );

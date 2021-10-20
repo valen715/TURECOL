@@ -117,6 +117,7 @@ import fondo from './img/fondo.png'
 //avatares
 import avatarS from './img/avatarS.png'
 import avatarV from './img/avatarV.png'
+import avatarV2 from './img/avatarV2.png'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default{
@@ -235,5 +236,6 @@ export default{
 
     //Avatares
     "img72":avatarS,
-    "img73":avatarV
+    "img73":avatarV,
+    "img74":avatarV2,
 }
