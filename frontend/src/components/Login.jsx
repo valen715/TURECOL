@@ -14,8 +14,8 @@ const Login = () => {
     const usuario = {
       correo: document.getElementById("correo").value,
       clave: document.getElementById("clave").value,
-    };
-
+    }; 
+      //comentario
     axios
       .post("http://localhost:3000/usuarios/login-sencillo", usuario)
       .then(function ({ data, status }) {
