@@ -5,7 +5,7 @@ import "../style/departamento.css";
 const Cesar = () => {
   return (
     <header>
-      <div class="sivsito">
+      <div class="divsito">
         <h1 class="tiulo">Cesar</h1>
         <img class="imagenes" src={imagen.img37} width="150" height="100" />
         <p class="text">
@@ -40,6 +40,11 @@ const Cesar = () => {
         {" "}
         <button className="button-ver-mas">Crear opinión</button>
       </a>
+
+      <a href="/opiniones" className="button-ver-opiniones">
+                {" "}
+                <button className="button-ver-mas button-ver-mas-mensaje">Ver las opiniones</button>
+              </a>
     </header>
   );
 };

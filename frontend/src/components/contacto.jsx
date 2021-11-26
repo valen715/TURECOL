@@ -32,7 +32,6 @@ const Contacto = () => {
             Teléfono: 321 7281317
           </p>
         </div>
-      </div>
 
         <div className="columna">
           <h2 className="card-titulo">Valentina Pulgarín Fernández</h2>
@@ -46,6 +45,9 @@ const Contacto = () => {
             Teléfono: 3206397349
           </p>
         </div>
+      </div>
+
+        
       
     </section>
 

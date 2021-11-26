@@ -43,6 +43,11 @@ const Guaviare = () => {
         {" "}
         <button className="button-ver-mas">Crear opinión</button>
       </a>
+
+      <a href="/opiniones" className="button-ver-opiniones">
+                {" "}
+                <button className="button-ver-mas button-ver-mas-mensaje">Ver las opiniones</button>
+              </a>
     </header>
   );
 };

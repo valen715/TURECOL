@@ -106,6 +106,8 @@ export function RouterAPP() {
                         <Pacifico />
                     </Route>
 
+                    
+
                     {/* Departamentos Region Amazonica */}
                     <Route exact path='/AmazonasD'>
                         <AmazonasD />
