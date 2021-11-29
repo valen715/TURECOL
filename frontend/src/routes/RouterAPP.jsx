@@ -85,7 +85,7 @@ export function RouterAPP() {
                     <Route exact path='/crearOpiniones'>
                         <CrearOpiniones />
                     </Route>
-                    <Route exact path='/contacto'>
+                    <Route exact path='/Contacto'>
                         <Contacto/>
                     </Route>    
 

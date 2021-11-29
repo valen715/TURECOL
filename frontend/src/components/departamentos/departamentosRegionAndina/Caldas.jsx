@@ -34,18 +34,36 @@ const Caldas = () => {
           Caldas, en este parque podemos encontrar algunos mamíferos y aves
           también; entre otros lugares más.{" "}
         </p>
-        
       </div>
 
-      <a href="/crearOpiniones" className="button-enlace">
-        {" "}
-        <button className="button-ver-mas">Crear opinión</button>
-      </a>
-
-      <a href="/opiniones" className="button-ver-opiniones">
-                {" "}
-                <button className="button-ver-mas button-ver-mas-mensaje">Ver las opiniones</button>
-              </a>
+      <div className="container">
+        <div className="row">
+          <div className="col-10">
+            <a href="/crearOpiniones" className="button-enlace">
+              {" "}
+              <button
+                type="button"
+                className="btn btn-outline button-ver-mas button-ver-mas-mensaje"
+              >
+                crear opinion
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-10 ">
+            <a href="/opiniones" className="button-ver-opiniones">
+              {" "}
+              <button
+                type="button"
+                className="btn btn-outline button-ver-mas button-ver-mas-mensaje"
+              >
+                Ver opiniones
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
   );
 };

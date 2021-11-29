@@ -16,8 +16,8 @@ const AmazonasD = () => {
         </p>
         <p class="text">
           El Amazonas tiene una superficie de 109.665 Km2, tiene una población
-          aproximadamente de 56.036 habitantes, este departamento fue creado en el año
-          1991, a sus habitantes se les llama Amazonenses, la capital del
+          aproximadamente de 56.036 habitantes, este departamento fue creado en
+          el año 1991, a sus habitantes se les llama Amazonenses, la capital del
           Amazonas es el municipio de Leticia y cuenta con 23.180 habitantes.
         </p>{" "}
         <br></br>
@@ -34,18 +34,34 @@ const AmazonasD = () => {
           mariposas y peces también cuenta con mas de 1.600 tipos de plantas.{" "}
         </p>
       </div>
-
-      <a href="/crearOpiniones" className="button-enlace">
-        {" "}
-        <button className="button-ver-mas button-ver-mas-mensaje">
-          Crear opinión
-        </button>
-      </a>
-
-      <a href="/opiniones" className="button-ver-opiniones">
-                {" "}
-                <button className="button-ver-mas button-ver-mas-mensaje">Ver las opiniones</button>
-              </a>
+      <div className="container">
+        <div className="row">
+          <div className="col-10">
+            <a href="/crearOpiniones" className="button-enlace">
+              {" "}
+              <button
+                type="button"
+                className="btn btn-outline button-ver-mas button-ver-mas-mensaje"
+              >
+                crear opinion
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-10 ">
+            <a href="/opiniones" className="button-ver-opiniones">
+              {" "}
+              <button
+                type="button"
+                className="btn btn-outline button-ver-mas button-ver-mas-mensaje"
+              >
+                Ver opiniones
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
   );
 };
