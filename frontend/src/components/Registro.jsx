@@ -3,8 +3,7 @@ import axios from "axios";
 import { useHistory } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
 import imagen from "../images/imagen";
-import "./Estilos/registro.css"
-
+import "./Estilos/registro.css";
 
 const Registro = () => {
   const { addToast } = useToasts();
@@ -12,10 +11,14 @@ const Registro = () => {
 
   function registrar() {
     const usuario = {
-      nombres: document.getElementById("nombres")?.value,
-      correo: document.getElementById("correo")?.value.toLowerCase(),
-      clave: document.getElementById("clave")?.value,
+      nombres: document.getElementById("nombres").value,
+      correo: document.getElementById("correo").value.toLowerCase(),
+      clave: document.getElementById("clave").value,
     };
+    if (usuario.nombres == 0 && usuario.correo == 0 && usuario.clave == 0) {
+      addToast("faltan datos", { appearance: "info" });
+      return addToast;
+    }
 
     axios
       .post("http://localhost:3000/usuarios/registrarUsuario", usuario)
