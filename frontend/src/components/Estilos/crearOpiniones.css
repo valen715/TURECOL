@@ -17,18 +17,21 @@
 }
 
 
-#departamento, #calificacion, #comentario{
+#departamento, #calificacion{
     display: block;
     height: 30px;
-    width: 90%;
+    width: 100%;
     font-weight: 500px;
     padding: 5px;
     border: solid 1px;
     border-radius: 10px;
     
-    
-
 }
+ #comentario{
+     border: solid 1px ;
+     border-radius: 9px;
+     height: 100px;
+ }
 
 .titulo-1{
     font-family: 'Alegreya Sans', sans-serif;

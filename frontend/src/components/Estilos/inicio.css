@@ -18,8 +18,9 @@
   border: none;
   text-decoration: none;
   text-align: center;
-
   position: relative;
+  font-size: 15px;
+
   top: -9%;
   left: 15%;
   transform: translate(5%, 15%);
@@ -93,7 +94,10 @@
   text-decoration: none;
   border: none;
   text-decoration: none;
-  text-align: center;
+  text-align: center;  
+  font-size: 15px;
+
+
 }
 .button-ver-mas1:hover {
   box-shadow: 3px 0px 30px rgb(133, 209, 114);
