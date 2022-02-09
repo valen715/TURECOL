@@ -2,7 +2,6 @@ const Usuario = require("../models/usuariosEntity");
 const usuarioController = {};
 // Operadores de bd como OR, AND, etc...
 const { Op, and } = require("sequelize");
-const { default: Registro } = require("../../frontend/src/components/Registro");
 
 /**
  * DOCUMENTACIÓN:
