@@ -39,7 +39,7 @@ const CrearOpiniones = () => {
     return (
         
         <div>
-            <h1 className="titulo-1">Escribe tus opiniones</h1>
+            
             <div className="crear-opinion">
                 <label for="lugar">Región:</label>
                 <select name="lugar" id="lugar">

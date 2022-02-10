@@ -36,7 +36,7 @@ nav{
     display: flex;
     align-items:center;
     justify-content: space-around;
-    min-height:8vh;
+    height: 6vh;
     background-color: #0CEDA2;
 }
 
