@@ -21,7 +21,7 @@ const Menu = () => {
           <>
             
 
-            <ul class="enlaces-menu">
+            <ul className="enlaces-menu">
               <li>
                 <a href="/">Inicio</a>
                 
@@ -32,16 +32,16 @@ const Menu = () => {
               </li>
             </ul>
 
-            <button class="ham" type="button">
-              <span class="br-1"></span>
-              <span class="br-2"></span>
-              <span class="br-3"></span>
+            <button className="ham" type="button">
+              <span className="br-1"></span>
+              <span className="br-2"></span>
+              <span className="br-3"></span>
             </button>
           </>
         ) ||
           (
             <>
-              <ul class="enlaces-menu">
+              <ul className="enlaces-menu">
                 <li>
                   <h1>Turecol</h1>
                 </li>

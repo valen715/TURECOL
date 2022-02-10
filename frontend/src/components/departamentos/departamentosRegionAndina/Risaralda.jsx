@@ -5,10 +5,10 @@ import "../style/departamento.css";
 const Risaralda = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Risaralda</h1>
-        <img class="imagenes" src={imagen.img27} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Risaralda</h1>
+        <img className="imagenes" src={imagen.img27} width="150" height="100" />
+        <p className="text">
           {" "}
           Risaralda es un departamento perteneciente a la región Andina, es uno
           de los varios departamentos cafeteros de Colombia, su comercio esta
@@ -16,15 +16,15 @@ const Risaralda = () => {
           turismo y para este departamento es muy importante la industria de la
           confección.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Risaralda tiene una superficie de 4.140 Km2, tiene una población
           aproximadamente de 957.250 habitantes, este departamento fue creado en
           el año 1966, a sus habitantes se les llama Risaraldense, la capital
           del Risaralda es Pereira y cuenta con 412.134 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img28} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img28} width="150" height="100" />
+        <p className="text">
           {" "}
           En Risaralda tenemos sitios turísticos muy interesantes los cuales
           podemos visitar y conocer tenemos la Laguna del Otún que tiene un

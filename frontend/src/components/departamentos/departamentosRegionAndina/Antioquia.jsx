@@ -5,10 +5,10 @@ import "../style/departamento.css";
 const Antioquia = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Antioquia</h1>
-        <img class="imagenes" src={imagen.img13} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Antioquia</h1>
+        <img className="imagenes" src={imagen.img13} width="150" height="100" />
+        <p className="text">
           {" "}
           Antioquia es un departamento perteneciente a la región Andina, es el
           departamento con mejor progreso y desarrollo en todo el país, tiene la
@@ -16,15 +16,15 @@ const Antioquia = () => {
           Medellín que a la vez es su capital, cuenta con una gastronomía
           exquisita, pues acá pertenece la bandeja paisa.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Antioquia tiene una superficie de 63.612 Km2, tiene una población
           aproximadamente de 5.671.689 habitantes, este departamento fue creado
           en el año 1886, a sus habitantes se les llama Antioqueños, la capital
           de Antioquia es Medellín y cuenta con 1.698.777 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img14} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img14} width="150" height="100" />
+        <p className="text">
           {" "}
           En Antioquia hay muchos lugares naturales los cuales podemos visitar,
           mientras los visitamos también podemos aprender de los ecosistemas y

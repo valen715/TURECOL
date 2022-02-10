@@ -5,16 +5,16 @@ import "../style/departamento.css";
 const Cundinamarca = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Cundinamarca</h1>
-        <img class="imagenes" src={imagen.img19} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Cundinamarca</h1>
+        <img className="imagenes" src={imagen.img19} width="150" height="100" />
+        <p className="text">
           {" "}
           Cundinamarca es un departamento perteneciente a la región Andina, es
           uno de los departamentos mas importantes de Colombia ya que su
           economía se basa en casi todos los sectores.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Cundinamarca tiene una superficie de 24.210 Km2, tiene una población
           aproximadamente de 2.721.368 habitantes, este departamento fue creado
           en el año 1886, a sus habitantes se les llama Cundinamarqués, la
@@ -22,8 +22,8 @@ const Cundinamarca = () => {
           habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img20} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img20} width="150" height="100" />
+        <p className="text">
           {" "}
           Este hermoso departamento tiene lugares para visitar tales como:
           Laguna de Guatavita, el parque y la laguna son un gran atractivo

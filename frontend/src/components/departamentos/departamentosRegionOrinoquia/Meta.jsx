@@ -5,25 +5,25 @@ import "../style/departamento.css";
 const Meta = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Meta</h1>
-        <img class="imagenes" src={imagen.img53} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Meta</h1>
+        <img className="imagenes" src={imagen.img53} width="150" height="100" />
+        <p className="text">
           {" "}
           El Meta es un departamento perteneciente a la región de la Orinoquia,
           es uno de los departamentos con mayor riqueza, tiene importantes
           regalías gracias a los descubrimientos de petróleo, n los últimos años
           se ha venido destacando por su crecimiento en el sector turístico.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           El Meta tiene una superficie de 85.635 Km2, tiene una población
           aproximadamente de 979.683 habitantes, este departamento fue creado en
           el año 1959, a sus habitantes se les llama Metenses, la capital de El
           Meta es Villavicencio y cuenta con 393.511 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img54} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img54} width="150" height="100" />
+        <p className="text">
           {" "}
           Este hermoso departamento tiene lugares para visitar tales como: El
           Parque Nacional Natural Sierra de la Macarena, Es una combinación de

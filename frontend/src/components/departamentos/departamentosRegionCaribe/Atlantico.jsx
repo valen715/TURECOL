@@ -5,25 +5,25 @@ import "../style/departamento.css";
 const Atlantico = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Atlantico</h1>
-        <img class="imagenes" src={imagen.img33} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Atlantico</h1>
+        <img className="imagenes" src={imagen.img33} width="150" height="100" />
+        <p className="text">
           {" "}
           El Atlántico es un departamento perteneciente a la región caribeña, es
           un departamento costero, es el cuarto mas poblado de Colombia, este
           sitio es perfecto para salir a turistear y disfrutar de la playa y sus
           paisajes, es muy conocido también por su exquisita gastronomía.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           El Atlántico tiene una superficie de 3.388 Km2, tiene una población
           aproximadamente de 2.112.128 habitantes, este departamento fue creado
           en el año 1910, a sus habitantes se les llama Atlanticense, la capital
           del Atlántico es Barranquilla y cuenta con 1.111.538 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img34} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img34} width="150" height="100" />
+        <p className="text">
           {" "}
           En este departamento hay muchos sitios que visitar la mayoría de estos
           lugares son naturales algunos de ellos son Laguna del Cisne, situada

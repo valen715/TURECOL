@@ -40,7 +40,7 @@ const Inicio = () => {
                 <div className="columna">
                   <h2 className="card-titulo">Región Amazonica</h2>
                   <hr />
-                  <img src={imagen.img66} class="img-card" />
+                  <img src={imagen.img66} className="img-card" />
                   <hr />
                   <p className="card-parrafo">
                     Está conformado por 6 departamentos, tiene un clima tropical
@@ -58,7 +58,7 @@ const Inicio = () => {
                 <div className="columna">
                   <h2 className="card-titulo">Región Andina</h2>
                   <hr />
-                  <img src={imagen.img67} class="img-card" />
+                  <img src={imagen.img67} className="img-card" />
                   <hr />
                   <p className="card-parrafo">
                     Esta conformada por 10 departamentos, tiene un clima
@@ -76,7 +76,7 @@ const Inicio = () => {
                 <div className="columna">
                   <h2 className="card-titulo">Región Caribe</h2>
                   <hr />
-                  <img src={imagen.img68} class="img-card" />
+                  <img src={imagen.img68} className="img-card" />
                   <hr />
                   <p className="card-parrafo">
                     Esta conformado por 8 departamentos, tiene un clima tropical
@@ -95,7 +95,7 @@ const Inicio = () => {
                 <div className="columna">
                   <h2 className="card-titulo">Región Orinoquía</h2>
                   <hr />
-                  <img src={imagen.img69} class="img-card" />
+                  <img src={imagen.img69} className="img-card" />
                   <hr />
                   <p className="card-parrafo">
                     Esta conformado por 4 departamentos, tiene un clima tropical
@@ -113,7 +113,7 @@ const Inicio = () => {
                 <div className="columna">
                   <h2 className="card-titulo">Región Pacífica</h2>
                   <hr />
-                  <img src={imagen.img70} class="img-card" />
+                  <img src={imagen.img70} className="img-card" />
                   <hr />
                   <p className="card-parrafo">
                     Está conformado por 4 departamentos, tiene un clima tropical
@@ -152,8 +152,8 @@ const Inicio = () => {
             <>
               <section className="container-2 flex text-center">
                 <div className="ingreso-fondo"></div>
-                <div Class="ingreso">
-                  <img src={imagen.img65} class="ingreso-logo" />
+                <div className="ingreso">
+                  <img src={imagen.img65} className="ingreso-logo" />
                   <a href="/login" className="button-enlace">
                     {" "}
                     <button className="button1 button-ver-mas button-ver-mas-mensaje">

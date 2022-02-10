@@ -5,24 +5,24 @@ import "../style/departamento.css";
 const Boyaca = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Boyaca</h1>
-        <img class="imagenes" src={imagen.img15} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Boyaca</h1>
+        <img className="imagenes" src={imagen.img15} width="150" height="100" />
+        <p className="text">
           {" "}
           Boyacá es un departamento perteneciente a la región Andina, es un
           departamento de arquitectura muy coloquial, fuera de ser un lugar
           hermoso y que tiene unos hermosos paisajes.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Boyacá tiene una superficie de 23.189 Km2, tiene una población
           aproximadamente de 1.278.061 habitantes, este departamento fue creado
           en el año 1886, a sus habitantes se les llama Boyacense, la capital de
           Boyacá es Tunja y cuenta con 123.625 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img16} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img16} width="150" height="100" />
+        <p className="text">
           {" "}
           En Boyacá tiene sitios ecoturísticos muy buenos los cuales debemos
           visitar al ir a este departamento algunos de ellos son: la Laguna de

@@ -5,24 +5,24 @@ import "../style/departamento.css";
 const AmazonasD = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Amazonas</h1>
-        <img class="imagenes" src={imagen.img1} />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Amazonas</h1>
+        <img className="imagenes" src={imagen.img1} />
+        <p className="text">
           {" "}
           El Amazonas es un departamento de la región amazónica, este es uno de
           los departamentos de Colombia mas rico en flora y fauna, también tiene
           una gran riqueza étnica ya que cuenta con aproximadamente 26 etnias.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           El Amazonas tiene una superficie de 109.665 Km2, tiene una población
           aproximadamente de 56.036 habitantes, este departamento fue creado en
           el año 1991, a sus habitantes se les llama Amazonenses, la capital del
           Amazonas es el municipio de Leticia y cuenta con 23.180 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img2} />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img2} />
+        <p className="text">
           {" "}
           En el Amazonas hay varios parques naturales unos de ellos son el
           Amacayacu en el cual podemos avistar aproximadamente 150 especies

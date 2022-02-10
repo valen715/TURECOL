@@ -5,25 +5,25 @@ import "../style/departamento.css";
 const Sucre = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Sucre</h1>
-        <img class="imagenes" src={imagen.img47} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Sucre</h1>
+        <img className="imagenes" src={imagen.img47} width="150" height="100" />
+        <p className="text">
           {" "}
           Sucre es un departamento perteneciente a la región caribeña, este
           departamento cuenta con bastantes riquezas naturales, su actividad
           económica es diversa: aunque tiene un gran potencial turístico, este
           sector está muy poco desarrollado.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Sucre tiene una superficie de 10.917 Km2, tiene una población
           aproximadamente de 859.909 habitantes, este departamento fue creado en
           el año 1966, a sus habitantes se les llama Sucreños, la capital de
           Sucre es Sincelejo y cuenta con 148.410 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img48} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img48} width="150" height="100" />
+        <p className="text">
           {" "}
           En este departamento hay muchos sitios que visitar la mayoría de estos
           lugares son naturales algunos de ellos son: Santuario de Fauna y Flora

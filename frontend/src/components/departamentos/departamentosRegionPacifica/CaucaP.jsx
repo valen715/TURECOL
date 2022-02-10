@@ -5,10 +5,10 @@ import "../style/departamento.css";
 const CaucaP = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Cauca</h1>
-        <img class="imagenes" src={imagen.img57} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Cauca</h1>
+        <img className="imagenes" src={imagen.img57} width="150" height="100" />
+        <p className="text">
           {" "}
           El cauca es un departamento perteneciente a la región Pacífica, El
           departamento del Cauca es rico en maderas, tiene grandes reservas
@@ -17,15 +17,15 @@ const CaucaP = () => {
           se encuentra el Macizo Colombiano, nudo en que se entrelazan las
           cordilleras Central y Occidental.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           El Cauca tiene una superficie de 29.308 Km2, tiene una población
           aproximadamente de 1.404.313 habitantes, este departamento fue creado
           en el año 1536, a sus habitantes se les llama Caucanos, la capital del
           Cauca es Popayán y cuenta con 200.989 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img58} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img58} width="150" height="100" />
+        <p className="text">
           {" "}
           Este departamento tiene tres parques significativos gracias a su
           riqueza natural, estos parques son: El Parque Nacional Natural

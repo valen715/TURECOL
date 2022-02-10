@@ -52,9 +52,9 @@ const Registro = () => {
   }
 
   return (
-    <div class="registro-box">
-      <h1>Registro</h1>
-      <img src={imagen.img65} class="logo" />
+    <div className="registro-box">
+      {/* <h1>Registro</h1> */}
+      <img src={imagen.img65} className="logo" />
       <from>
         <label for="nombres">Nombre:</label>
         <input id="nombres" name="nombres" />

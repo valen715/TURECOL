@@ -5,10 +5,10 @@ import "../style/departamento.css";
 const Guainia = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Guainía</h1>
-        <img class="imagenes" src={imagen.img5} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Guainía</h1>
+        <img className="imagenes" src={imagen.img5} width="150" height="100" />
+        <p className="text">
           {" "}
           La Guainía es un departamento perteneciente a la región Amazónica es
           un departamento lleno de riqueza natural, este ha ido creciendo en los
@@ -19,15 +19,15 @@ const Guainia = () => {
           Payara y en el río Inírida. También se puede visitar los Cerros de
           Mavecure, la laguna de Las Brujas y el raudal de Sapuara.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           La Guainía tiene una superficie de 72.238 Km2, tiene una población
           aproximadamente de 42.123 habitantes, este departamento fue creado en
           el año 1991, a sus habitantes se les llama Guainarense o guainiano, la
           capital del Guainía es Puerto Inírida y cuenta con 14.299 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img6} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img6} width="150" height="100" />
+        <p className="text">
           {" "}
           En La Guainía se encuentra como sitio turístico la Reserva Nacional
           Natural Puinawai, este parque cuenta con gran diversidad de fauna y

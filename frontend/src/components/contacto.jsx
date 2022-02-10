@@ -10,7 +10,7 @@ const Contacto = () => {
         <div className="columna">
           <h2 className="card-titulo">Sergio David Mosquera Moreno</h2>
           <hr />
-          <img src={imagen.img72} class="img-card" />
+          <img src={imagen.img72} className="img-card" />
           <hr />
           <p className="card-parrafo">
             Correo: Sergio_Mosquera23211@elpoli.edu.co
@@ -23,7 +23,7 @@ const Contacto = () => {
         <div className="columna">
           <h2 className="card-titulo">Valentina Restrepo Montoya</h2>
           <hr />
-          <img src={imagen.img73} class="img-card" />
+          <img src={imagen.img73} className="img-card" />
           <hr />
           <p className="card-parrafo">
             Correo: valentina_restrepo23211@elpoli.edu.co
@@ -36,7 +36,7 @@ const Contacto = () => {
         <div className="columna">
           <h2 className="card-titulo">Valentina Pulgarín Fernández</h2>
           <hr />
-          <img src={imagen.img74} class="img-card" />
+          <img src={imagen.img74} className="img-card" />
           <hr />
           <p className="card-parrafo">
             Correo: valentina_pulgarin23211@elpoli.edu.co

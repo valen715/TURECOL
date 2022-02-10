@@ -5,25 +5,25 @@ import "../style/departamento.css";
 const Santander = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="Santander">Santander</h1>
-        <img class="imagenes" src={imagen.img29} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="Santander">Santander</h1>
+        <img className="imagenes" src={imagen.img29} width="150" height="100" />
+        <p className="text">
           {" "}
           Santander es un departamento perteneciente a la región Andina, este
           departamento se ha ido desarrollando en los últimos años su economía
           esta bastante diversificada y posee grandes recursos naturales, además
           este departamento tiene una cultura bastante fuera de lo común.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Santander tiene una superficie de 30.537 Km2, tiene una población
           aproximadamente de 2.071.016 habitantes, este departamento fue creado
           en el año 1886, a sus habitantes se les llama Santandereano, la
           capital de Santander es Bucaramanga y cuenta con 499.932 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img30} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img30} width="150" height="100" />
+        <p className="text">
           {" "}
           En Santander podemos encontrar lugares naturales los cuales podremos
           visitar uno de ellos es la Cascada de Juan Curi, también esta la Mesa

@@ -37,9 +37,9 @@ const Login = () => {
   }
   return (
     
-    <div class="login-box">
-      <h1 >Este es el login</h1>
-      <img src={imagen.img65} class="logo" />
+    <div className="login-box">
+      {/* <h1 >login</h1> */}
+      <img src={imagen.img65} className="logo" />
       <from>
         <label for="correo">Correo:</label>
         <input id="correo" name="correo" />

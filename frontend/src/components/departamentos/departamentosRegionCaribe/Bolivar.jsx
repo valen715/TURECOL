@@ -5,10 +5,10 @@ import "../style/departamento.css";
 const Bolivar = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Bolivar</h1>
-        <img class="imagenes" src={imagen.img35} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Bolivar</h1>
+        <img className="imagenes" src={imagen.img35} width="150" height="100" />
+        <p className="text">
           {" "}
           Bolívar es un departamento perteneciente a la región caribeña este
           departamento esta lleno de diversidad y belleza natural, además de que
@@ -16,15 +16,15 @@ const Bolivar = () => {
           único este territorio son sus mares, su arquitectura y el clima que lo
           asociamos con unas buenas vacaciones.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Bolívar tiene una superficie de 25.978 Km2, tiene una población
           aproximadamente de 2.122.021 habitantes, este departamento fue creado
           en el año 1886, a sus habitantes se les llama Bolivarense, la capital
           del Bolívar es Cartagena y cuenta con 661.830 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img36} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img36} width="150" height="100" />
+        <p className="text">
           {" "}
           Lo bueno de visitar este departamento es que podemos hacer ecoturismo
           por tierra y por mar, unos de los lugares que se pueden visitar

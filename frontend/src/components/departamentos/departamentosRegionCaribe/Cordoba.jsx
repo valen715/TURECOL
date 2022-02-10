@@ -5,10 +5,10 @@ import "../style/departamento.css";
 const Cordoba = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Cordoba</h1>
-        <img class="imagenes" src={imagen.img39} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Cordoba</h1>
+        <img className="imagenes" src={imagen.img39} width="150" height="100" />
+        <p className="text">
           {" "}
           Córdoba es un departamento de la región caribeña, este departamento es
           destacado mayormente por la actividad agrícola, precaria y minera, es
@@ -16,15 +16,15 @@ const Cordoba = () => {
           que sea uno de los departamentos mas privilegiados para practicar el
           ecoturismo.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Córdoba tiene una superficie de 23.980 Km2, tiene una población
           aproximadamente de 1.736.218 habitantes, este departamento fue creado
           en el año 1951, a sus habitantes se les llama Cordobés, la capital de
           Córdoba es Montería y cuenta con 270.954 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img40} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img40} width="150" height="100" />
+        <p className="text">
           {" "}
           Se puede empezar visitando la Ciénaga de Ayapel, en este sitio se
           suelen desplazar en planchones de madera este lugar en muy rico en

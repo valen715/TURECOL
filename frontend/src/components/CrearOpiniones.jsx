@@ -39,8 +39,8 @@ const CrearOpiniones = () => {
     return (
         
         <div>
-            <h1 class="titulo-1">Escribe tus opiniones</h1>
-            <div class="crear-opinion">
+            <h1 className="titulo-1">Escribe tus opiniones</h1>
+            <div className="crear-opinion">
                 <label for="lugar">Región:</label>
                 <select name="lugar" id="lugar">
                     <option value="1">Amazonas</option>
@@ -54,13 +54,13 @@ const CrearOpiniones = () => {
                 <input name="departamento" id="departamento"  rows="10" ></input>
                 <br />
                 <br />
-                <label class="calificacion" for="calificacion">Calificación:</label>
+                <label className="calificacion" for="calificacion">Calificación:</label>
                 <input id="calificacion" name="calificacion" max="5" maxLength="1" minLength="1" />
                 <br />
-                <label class="comentario" for="comentario">Comentario:</label>
+                <label className="comentario" for="comentario">Comentario:</label>
                 <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
                 <br />
-                <input type="submit" class="bonton-opinion" value="Registrar opinion" onClick={registrarOpinion} />
+                <input type="submit" className="bonton-opinion" value="Registrar opinion" onClick={registrarOpinion} />
             </div>
         </div>
     )

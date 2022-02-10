@@ -5,10 +5,10 @@ import "../style/departamento.css";
 const Guaviare = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Guaviare</h1>
-        <img class="imagenes" src={imagen.img7} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Guaviare</h1>
+        <img className="imagenes" src={imagen.img7} width="150" height="100" />
+        <p className="text">
           {" "}
           El Guaviare es un departamento perteneciente a la región Amazónica
           tristemente es uno de los departamentos de Colombia menos conocido, la
@@ -16,15 +16,15 @@ const Guaviare = () => {
           tiene como actividad económica principal la agricultura y también el
           área forestal.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           El Guaviare tiene una superficie de 53.460 Km2, tiene una población
           aproximadamente de 112.621 habitantes, este departamento fue creado en
           el año 1991, a sus habitantes se les llama Guaviareño, la capital del
           Guaviare es San José del Guaviare y cuenta con 49.159 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img8} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img8} width="150" height="100" />
+        <p className="text">
           {" "}
           El Guaviare tiene como sitio turístico la Reserva Nacional Natural
           Nukak esta zona esta protegida por la Zona de Reserva Forestal de la

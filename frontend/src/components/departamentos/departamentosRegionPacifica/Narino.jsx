@@ -5,25 +5,25 @@ import "../style/departamento.css";
 const Narino = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Narino</h1>
-        <img class="imagenes" src={imagen.img61} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Narino</h1>
+        <img className="imagenes" src={imagen.img61} width="150" height="100" />
+        <p className="text">
           {" "}
           Nariño es un departamento perteneciente a la región Pacífica, El
           departamento de Nariño es un importante productor agrícola y
           agroindustrial, su actividad turística se ha venido desarrollando con
           el tiempo y cada vez toma mayor importancia.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Nariño tiene una superficie de 46.530 Km2, tiene una población
           aproximadamente de 505.046 habitantes, este departamento fue creado en
           el año 1947, a sus habitantes se les llama Chocoanos, la capital del
           Nariño es Quibdó y cuenta con 113.473 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img62} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img62} width="150" height="100" />
+        <p className="text">
           {" "}
           En Nariño podemos visitar lugares como el Parque Sanquianga, es bañado
           por las aguas del Océano Pacífico. Es uno de los mayores bosques de

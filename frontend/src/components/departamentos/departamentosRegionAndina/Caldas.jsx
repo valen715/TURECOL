@@ -5,25 +5,25 @@ import "../style/departamento.css";
 const Caldas = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">Caldas</h1>
-        <img class="imagenes" src={imagen.img17} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">Caldas</h1>
+        <img className="imagenes" src={imagen.img17} width="150" height="100" />
+        <p className="text">
           {" "}
           Caldas es un departamento perteneciente a la región Andina, es un
           departamento que su desarrollo se basa principalmente en las áreas
           agrícolas, la ganadería y el turismo, este departamento es un lugar
           que tiene mucha diversidad de fauna y flora.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           Caldas tiene una superficie de 7.888 Km2, tiene una población
           aproximadamente de 989.942 habitantes, este departamento fue creado en
           el año 1905, a sus habitantes se les llama Caldense, la capital de
           Caldas es Manizales y cuenta con 378.887 habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img18} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img18} width="150" height="100" />
+        <p className="text">
           {" "}
           Si en nuestros planes esta visitar el departamento de Caldas hay
           varios lugares por los que deberías empezar conociendo uno de estos es

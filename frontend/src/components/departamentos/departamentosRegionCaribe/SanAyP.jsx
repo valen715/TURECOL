@@ -5,10 +5,10 @@ import "../style/departamento.css";
 const SanAyP = () => {
   return (
     <header>
-      <div class="divsito">
-        <h1 class="titulo">San Andrés y Providencia</h1>
-        <img class="imagenes" src={imagen.img45} width="150" height="100" />
-        <p class="text">
+      <div className="divsito">
+        <h1 className="titulo">San Andrés y Providencia</h1>
+        <img className="imagenes" src={imagen.img45} width="150" height="100" />
+        <p className="text">
           {" "}
           San Andrés y Providencia es un departamento perteneciente a la región
           caribeña, pero este además de ser un departamento tiene algo especial
@@ -16,7 +16,7 @@ const SanAyP = () => {
           de que es el departamento más pequeño de Colombia, la economía de este
           territorio se basa principalmente en el turismo y el comercio.{" "}
         </p>
-        <p class="text">
+        <p className="text">
           San Andrés y Providencia tiene una superficie de 52 Km2, tiene una
           población aproximadamente de 68.283 habitantes, este departamento fue
           creado en el año 1991, a sus habitantes se les llama Sanandresanos, la
@@ -24,8 +24,8 @@ const SanAyP = () => {
           habitantes.
         </p>{" "}
         <br></br>
-        <img class="imagenes2" src={imagen.img46} width="150" height="100" />
-        <p class="text">
+        <img className="imagenes2" src={imagen.img46} width="150" height="100" />
+        <p className="text">
           {" "}
           En este departamento abundan los lugares para visitar esto se debe a
           que este es su ingreso económico principal, algunos de estos sitios
