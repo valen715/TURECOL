@@ -7,11 +7,9 @@
     "dev": "nodemon ./bin/www",
     "test": "set NODE_ENV=test && jest --verbose --silent --detectOpenHandles"
   },
-
-  "jest":{
-  "testEnvironment": "node"
+  "jest": {
+    "testEnvironment": "node"
   },
-
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
